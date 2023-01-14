@@ -1,11 +1,19 @@
-# from package.soup_function import *
-# from package.firebase_function import remove_data_in_firebase
+from package.soup_function import *
+from package.firebase_function import remove_data_in_firebase
 
-# json_path = get_last_json_file()
-# for file_name in json_path:
-#     data_dict = convert_json_to_dict(file_name)
-#     url_posttime_uid = get_data_in_data_dict(data_dict)  
-#     get_text_facebook(url_posttime_uid)
+year = db.reference("/scraper")
+for y in year.get(): #Year
+    print(y)
+    month = db.reference(f"/scraper/{y}")
+    for m in month.get():  #Month
+        print(m)
+        day = db.reference(f"/scraper/{y}/{m}")
+        for d in day.get():
+            print(d)
+            url = db.reference(f"/scraper/{y}/{m}/{d}/post_url").get()
+            print(url)
+            get_text_facebook(d,url)
+
 
 
 ###########################
@@ -22,27 +30,16 @@
 
 ###test zone###
 
-from package.soup_function_test import *
-from package.firebase_function import remove_data_in_firebase
+# from package.soup_function_test import *
+# from package.firebase_function import remove_data_in_firebase
 
 # get_text_facebook()
 
-year = db.reference("/scraper")
-for y in year.get(): #Year
-    print(y)
-    month = db.reference(f"/scraper/{y}")
-    for m in month.get():  #Month
-        print(m)
-        day = db.reference(f"/scraper/{y}/{m}")
-        for d in day.get():
-            print(d)
-            url = db.reference(f"/scraper/{y}/{m}/{d}/post_url").get()
-            print(url)
-            get_text_facebook(d,url)
-
-
-    
-
+# json_path = get_last_json_file()
+# for file_name in json_path:
+#     data_dict = convert_json_to_dict(file_name)
+#     url_posttime_uid = get_data_in_data_dict(data_dict)  
+#     get_text_facebook(url_posttime_uid)
 
 
 ###test zone###
