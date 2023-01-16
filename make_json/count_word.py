@@ -10,12 +10,9 @@ u_name = 'BUBUMUMU'
 u_id = '100008420610299'
 url = 'https://m.facebook.com/photo/view_full_size'
 
-txt_data = ["""ใครทำตกไว้ที่หน้าร้านจิ้มจุ่มตรงทางเข้าสิรีนพาร์ค2 IBมาได้นะครับ""",
-            """ส่งต่อ Nike Air Force one
-ทักมาสอบถามรายละเอียดได้ค่ะ (ลดราคาได้อีกนิดหน่อยงับบ)
-นัดรับได้เลยงับบ
-มีกล่องและถุงกระดาษให้ด้วย
-ซื้อมาผิด size ค่ะ 100 บาท"""]
+txt_data = ["""ขายกรุบกริบ
+ราคา 2800 ฿
+"""]
 
 img = ['https://scontent.fhlz2-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/58745049_2257182057699568_1761478225390731264_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8024bb&_nc_ohc=ygH2fPmfQpAAX92ABYY&_nc_ht=scontent.fhlz2-1.fna&tp=14&oh=7a8a7b4904deb55ec696ae255fff97dd&oe=60A36717',
        'https://cdn3.virtualsheetmusic.com/images/first_pages/HL-v/HL-319665First_BIG.png']
@@ -62,8 +59,7 @@ for ex_txt in txt_data:
         print('\n\nDuration: {}\n\n'.format(end_time - start_time))
     elif (post_type == "find"):
         # create & insert data in to temp_dict_find
-        temp_dict = insert_data_to_dict(
-            "find", time2, u_name, u_id, clean_txt, img, url)
+        temp_dict = insert_data_to_dict("find", time2, u_name, u_id, clean_txt, img, url)
 
         # find the detail of place & describe (color)
         get_all_detail(clean_txt)
@@ -82,6 +78,7 @@ for ex_txt in txt_data:
 
         data_dict["2020-05-10 16:38:33"] = temp_dict
         time = str(temp_dict["date_time"])
+        print("HELLLELAJ:LDKJASLD")
         put_data_to_firebase_demo(time, temp_dict)
 
         end_time = datetime.now()
@@ -90,9 +87,9 @@ for ex_txt in txt_data:
     temp_category = temp_describe = temp_place = []
 
 # encode list to json
-jsonString = json.dumps(data_dict, ensure_ascii=False, indent=4, default=str)
+# jsonString = json.dumps(data_dict, ensure_ascii=False, indent=4, default=str)
 # Writing to json
-writejson(jsonString)
+# writejson(jsonString)
 
 # TODO TEST DATA_DICT
 print(data_dict)

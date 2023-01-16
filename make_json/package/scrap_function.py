@@ -6,7 +6,7 @@ from facebook_scraper import get_posts
 ##insert data in to temp_dict
 def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
     if post_type == "sell":  ##mean temp_dict_find
-        data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[]}
+        data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[],'price':{}}
         data_dict["date_time"] = time
         data_dict["username"] = u_name
         data_dict["user_id"] = u_id
@@ -16,17 +16,39 @@ def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
         data_dict["post_url"] = url
         #get the price by find index of บาท  and get clean_txt[index-1]
         try:
-            index = txt.index("บาท")
-            price = txt[index-1]
-            data_dict["price"] = price
+            try:
+                index = txt.index("บาท")
+                print(f"index::{index} ")
+                price = txt[index-1]
+                data_dict["price"] = price
+            except:
+                print("index not found")
+                
+            try:
+                indexsym = txt.index("฿")
+                print(f" indexsym::{indexsym}")
+                price = txt[indexsym-1]
+                data_dict["price"] = price
+            except:
+                print("indexsym not found")
+
         except:
             data_dict["price"] = "-"
     elif post_type == "find": ##mean temp_dict_sell
-        data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[],'price':{}}
+        data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[]}
         data_dict["date_time"] = time
         data_dict["username"] = u_name
         data_dict["user_id"] = u_id
         data_dict["post_type"] = 'ประกาศของหาย'
+        data_dict["text"] = txt
+        data_dict["image"] = img
+        data_dict["post_url"] = url
+    elif post_type == "muuu":
+        data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[]}
+        data_dict["date_time"] = time
+        data_dict["username"] = u_name
+        data_dict["user_id"] = u_id
+        data_dict["post_type"] = 'mumu'
         data_dict["text"] = txt
         data_dict["image"] = img
         data_dict["post_url"] = url

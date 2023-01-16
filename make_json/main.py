@@ -7,7 +7,7 @@ from datetime import datetime
 
 group_id = '197822284350539' #KMUTNB Community
 
-for post in get_posts(group=group_id, pages=5, extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}):#group=group_id, pages=20,cookies="from_browser", extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}
+for post in get_posts(group=group_id, pages=5, extra_info=True, option={"comment": False,"posts_per_page": 5,"reactors": True}):#group=group_id, pages=20,cookies="from_browser", extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}
     start_time = datetime.now()
     print('--------------------')
     text = cleanning(post['post_text'])
@@ -73,6 +73,24 @@ for post in get_posts(group=group_id, pages=5, extra_info=True, option={"comment
                 # put data to firebase
                 time = str(temp_dict["date_time"])
                 put_data_to_firebase(time,temp_dict)
+                    
+                # add temp_dict in to data_dect
+                data_dict[str(post['time'])] = temp_dict
+
+                #measure the time
+                end_time = datetime.now()
+                print('\n\nDuration: {}\n\n'.format(end_time - start_time))
+                # break
+            else:
+                # add data into temp_dict
+                temp_dict = insert_data_to_dict("muuu",post['time'],post['username'],post['user_id'],clean_txt,post['images'],post['post_url'])
+
+                #find the detail of place & describe (color)  
+                get_all_detail(clean_txt)
+
+                # put data to firebase
+                time = str(temp_dict["date_time"])
+                # put_data_to_firebase(time,temp_dict)
                     
                 # add temp_dict in to data_dect
                 data_dict[str(post['time'])] = temp_dict

@@ -48,5 +48,5 @@ def get_comment_facebooks(url_link ):
 
     Name_Comment_parse()
     # print(Name)
-    print(Comment)  #print all comment that post owner commented
+    print(f"Comments:: {Comment}")  #print all comment that post owner commented
     return "".join(Comment) #will return as str by joining all data in Comment_List

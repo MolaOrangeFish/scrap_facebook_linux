@@ -22,6 +22,6 @@ while(True):
             print(f"Start Scaping in {i} Second(s).")
             time.sleep(1)
         os.system('pwd')
-        # os.system('python3 make_json/main.py')
-        os.system('python3 make_json/run_soup.py')
+        os.system('python make_json/main.py')
+        os.system('python make_json/run_soup.py')
         flag = False
