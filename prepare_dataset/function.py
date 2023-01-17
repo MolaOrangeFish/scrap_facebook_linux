@@ -21,16 +21,19 @@ en_stop = tuple(get_stop_words('en'))
 
 def add_data_to_csv_with_deepcut(text,label):
     data=[]
-    clean_text = cleanning(text)
-    list_of_word = split_word(clean_text)
-    
-    temp_data=[list_of_word,str(label)]
-    data.append(temp_data)
-    with open('by_hand_new_data.csv', 'a',encoding="UTF8") as file:
-        # header = ['post_type','text']
-        writer = csv.writer(file)
-        # writer.writerow(header)
-        writer.writerows(data)
+    try:
+        clean_text = cleanning(text)
+        list_of_word = split_word(clean_text)
+        
+        temp_data=[list_of_word,str(label)]
+        data.append(temp_data)
+        with open('by_hand_new_data2.csv', 'a',encoding="UTF8") as file:
+            # header = ['text','post_type']
+            writer = csv.writer(file)
+            # writer.writerow(header)
+            writer.writerows(data)
+    except:
+        print("skip eiei")
     
     
 
@@ -64,7 +67,7 @@ def join_json():
     list_of_json = get_all_json_file()
     print(list_of_json)
     for name in list_of_json:
-        with open('scrap_data_json\scraping_16-01-2023_21.json','r',encoding="UTF8") as file:
+        with open('scrap_data_json\scraping_17-01-2023_20.json','r',encoding="UTF8") as file:
             json_data = json.load(file)
             # json_data = json.dumps(file, indent=4, sort_keys=True)
             data_size = len(json_data["data"])

@@ -1,6 +1,6 @@
 from function import join_csv,join_json,add_data_to_csv_with_deepcut
 import pandas as pd
-from storage import data1
+from storage import data1,data2
 
 # df = pd.read_csv('data.csv')
 # print(df.shape)
@@ -10,15 +10,22 @@ from storage import data1
 
 # df.to_csv("sample.csv")
 
-# join_json()
+join_json()
 
+
+
+####################
 ### Import data by hand##
-data = data1
+"""
+data = data2
 size = len(data)
+# print(size)
 for i in range (0,size,2):
     print(f"{data[i]} , {data[i+1]}")
     add_data_to_csv_with_deepcut(data[i],data[i+1])
+    """
 ### Import data by hand##
+####################
             
     
     

@@ -9,10 +9,9 @@ group_id = '197822284350539' #KMUTNB Community
 
 for post in get_posts(group=group_id, pages=5, extra_info=True, option={"comment": False,"posts_per_page": 5,"reactors": True}):#group=group_id, pages=20,cookies="from_browser", extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}
     start_time = datetime.now()
-    print('--------------------')
+    print('++++++++++++++++++++++++++++++++++++++++++++')
     text = cleanning(post['post_text'])
     print(text)
-    print('--------------------')
 
     clean_txt = split_word(text)
     print("TEXT  :",(clean_txt))#type <class 'list'>
