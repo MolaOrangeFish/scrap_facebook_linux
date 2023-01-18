@@ -27,7 +27,7 @@ def add_data_to_csv_with_deepcut(text,label):
         
         temp_data=[list_of_word,str(label)]
         data.append(temp_data)
-        with open('by_hand_new_data2.csv', 'a',encoding="UTF8") as file:
+        with open('by_hand_new_data3.csv', 'a',encoding="UTF8") as file:
             # header = ['text','post_type']
             writer = csv.writer(file)
             # writer.writerow(header)
