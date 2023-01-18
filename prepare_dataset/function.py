@@ -37,7 +37,7 @@ def add_data_to_csv_with_deepcut(text,label):
     
     
 
-def join_csv():
+def csv_to_csv():
     data=[]
     list_of_csv = get_all_csv_file()
     for name in list_of_csv:
@@ -62,12 +62,12 @@ def join_csv():
             # writer.writerow(header)
             writer.writerows(data)
 
-def join_json():
+def json_to_csv():
     data = []
     list_of_json = get_all_json_file()
     print(list_of_json)
     for name in list_of_json:
-        with open('scrap_data_json\scraping_17-01-2023_20.json','r',encoding="UTF8") as file:
+        with open('scrap_data_json\scraping_18-01-2023_21.json','r',encoding="UTF8") as file:
             json_data = json.load(file)
             # json_data = json.dumps(file, indent=4, sort_keys=True)
             data_size = len(json_data["data"])

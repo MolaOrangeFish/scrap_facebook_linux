@@ -31,6 +31,13 @@ def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
                 data_dict["price"] = price
             except:
                 print("indexsym not found")
+            try:
+                indexfree = txt.index("ฟรี")
+                print(f" indexfree::{indexfree}")
+                price = "free"
+                data_dict["price"] = price
+            except:
+                print("indexfree not found")
 
         except:
             data_dict["price"] = "-"
