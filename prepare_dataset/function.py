@@ -23,11 +23,12 @@ def add_data_to_csv_with_deepcut(text,label):
     data=[]
     try:
         clean_text = cleanning(text)
-        list_of_word = split_word(clean_text)
+        # list_of_word = split_word(clean_text)
         
-        temp_data=[list_of_word,str(label)]
+        # temp_data=[list_of_word,str(label)]
+        temp_data=[clean_text,str(label)]
         data.append(temp_data)
-        with open('by_hand_new_data3.csv', 'a',encoding="UTF8") as file:
+        with open('by_selenium_data1.csv', 'a',encoding="UTF8") as file:
             # header = ['text','post_type']
             writer = csv.writer(file)
             # writer.writerow(header)

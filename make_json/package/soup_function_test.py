@@ -1,3 +1,4 @@
+"""
 import requests
 import string
 import json
@@ -87,7 +88,7 @@ def check_close_post(text_list):
             found_check = "found"
     return found_check      
         
-
+"""
 
             
 

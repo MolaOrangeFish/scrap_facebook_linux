@@ -11,7 +11,6 @@ from storage import data1,data2,data3
 # df.to_csv("sample.csv")
 
 
-
 # json_to_csv()
 
 
@@ -20,12 +19,13 @@ from storage import data1,data2,data3
 # """
 data = data3
 size = len(data)
-# print(size)
+print(size)
+"""
 for i in range (0,size,2):
 # for i in range (1):
     print(f"{data[i]} , {data[i+1]}")
     add_data_to_csv_with_deepcut(data[i],data[i+1])
-    # """
+    """
 ### Import data by hand##
 ####################
             
