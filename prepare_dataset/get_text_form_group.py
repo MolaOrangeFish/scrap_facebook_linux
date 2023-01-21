@@ -10,11 +10,12 @@ from function import add_data_to_csv_with_deepcut
 
 count=0
 driver = webdriver.Edge()
-time.sleep(2)
+
 ##OPEN URL
 url_link = "https://www.facebook.com/groups/197822284350539/posts"
 
 driver.get(url_link)
+time.sleep(50)
 def get_comment_facebooks():
     ##get username who post 
     keys=driver.find_elements(By.XPATH,"//div[@class='x1iorvi4 x1pi30zi x1l90r2v x1swvt13']")
@@ -45,7 +46,7 @@ def get_comment_facebooks():
 
 
 
-SCROLL_PAUSE_TIME = 0.5
+SCROLL_PAUSE_TIME = 5
 
 # Get scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
