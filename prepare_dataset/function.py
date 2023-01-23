@@ -23,10 +23,9 @@ def add_data_to_csv_with_deepcut(text,label):
     data=[]
     try:
         clean_text = cleanning(text)
-        # list_of_word = split_word(clean_text)
+        list_of_word = split_word(clean_text)
         
-        # temp_data=[list_of_word,str(label)]
-        temp_data=[clean_text,str(label)]
+        temp_data=[list_of_word,str(label)]
         data.append(temp_data)
         with open('by_selenium_data1.csv', 'a',encoding="UTF8") as file:
             # header = ['text','post_type']
@@ -68,7 +67,7 @@ def json_to_csv():
     list_of_json = get_all_json_file()
     print(list_of_json)
     for name in list_of_json:
-        with open('scrap_data_json\scraping_18-01-2023_21.json','r',encoding="UTF8") as file:
+        with open('scrap_data_json\scraping_21-01-2023_18.json','r',encoding="UTF8") as file:
             json_data = json.load(file)
             # json_data = json.dumps(file, indent=4, sort_keys=True)
             data_size = len(json_data["data"])
@@ -89,6 +88,7 @@ def json_to_csv():
                 writer = csv.writer(file)
                 # writer.writerow(header)
                 writer.writerows(data)
+    print("Done converting")
                 
 
 def str_to_list(msg):
