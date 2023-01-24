@@ -64,30 +64,26 @@ def csv_to_csv():
 
 def json_to_csv():
     data = []
-    list_of_json = get_all_json_file()
-    print(list_of_json)
-    for name in list_of_json:
-        with open('scrap_data_json\scraping_21-01-2023_18.json','r',encoding="UTF8") as file:
-            json_data = json.load(file)
-            # json_data = json.dumps(file, indent=4, sort_keys=True)
-            data_size = len(json_data["data"])
+    with open('scrap_data_json\scraping_24-01-2023_19.json','r',encoding="UTF8") as file:
+        json_data = json.load(file)
+        data_size = len(json_data["data"])
 
             
-            for i in range(0,data_size):
-                date_time = json_data["data"][i]["date_time"]
-                username = json_data["data"][i]["username"]
-                user_id = json_data["data"][i]["user_id"]
-                post_type = json_data["data"][i]["post_type"]
-                text = json_data["data"][i]["text"]
-                image = json_data["data"][i]["image"]
-                tempdata = [date_time,username,user_id,text, post_type,image]
-                data.append(tempdata)
+        for i in range(0,data_size):
+            date_time = json_data["data"][i]["date_time"]
+            username = json_data["data"][i]["username"]
+            user_id = json_data["data"][i]["user_id"]
+            post_type = json_data["data"][i]["post_type"]
+            text = json_data["data"][i]["text"]
+            image = json_data["data"][i]["image"]
+            tempdata = [date_time,username,user_id,text, post_type,image]
+            data.append(tempdata)
             
-            with open('temp_scapping_data.csv', 'a',encoding="UTF8") as file:
-                header = ['date_time','username','user_id','text','post_type','image']
-                writer = csv.writer(file)
-                # writer.writerow(header)
-                writer.writerows(data)
+        with open('csv/temp_scapping_data.csv', 'a',encoding="UTF8") as file:
+            header = ['date_time','username','user_id','text','post_type','image']
+            writer = csv.writer(file)
+            # writer.writerow(header)
+            writer.writerows(data)
     print("Done converting")
                 
 

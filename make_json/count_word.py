@@ -4,7 +4,7 @@ from package.firebase_function import put_data_to_firebase_demo,send_error
 from datetime import datetime
 
 
-time1 = "2020-05-10 16:38:49"
+time1 = "2020-05-10 16:38:42"
 time2 = "2020-05-10 16:38:33"
 u_name = 'BUBUMUMU'
 u_id = '100008420610299'
@@ -12,7 +12,7 @@ url = 'https://m.facebook.com/photo/view_full_size'
 
 txt_data = ["""
 ขายสนใจหนังสือฟรีไหมส่งต่อน้า
-"""]
+""","เจอหูฟังหล่นหายหน้าตึก"]
 
 img = ['https://scontent.fhlz2-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/58745049_2257182057699568_1761478225390731264_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8024bb&_nc_ohc=ygH2fPmfQpAAX92ABYY&_nc_ht=scontent.fhlz2-1.fna&tp=14&oh=7a8a7b4904deb55ec696ae255fff97dd&oe=60A36717',
        'https://cdn3.virtualsheetmusic.com/images/first_pages/HL-v/HL-319665First_BIG.png']
