@@ -47,3 +47,9 @@ def send_error(msg):
     url = "https://kmutnbcommunity-default-rtdb.asia-southeast1.firebasedatabase.app/"
     err_msg = firebase.FirebaseApplication(url)
     err_msg.put(f'/error',current_time,msg)
+
+
+def update_time_to_firebase(post_time:str):
+    url = "https://kmutnbcommunity-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    messenger = firebase.FirebaseApplication(url)
+    messenger.put(f'/update_time/',"time",post_time)    
