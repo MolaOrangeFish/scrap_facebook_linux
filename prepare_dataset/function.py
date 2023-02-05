@@ -64,20 +64,23 @@ def csv_to_csv():
 
 def json_to_csv():
     data = []
-    with open('scrap_data_json\scraping_24-01-2023_19.json','r',encoding="UTF8") as file:
-        json_data = json.load(file)
-        data_size = len(json_data["data"])
+    list_of_json = get_all_json_file()
+    print(list_of_json)
+    for filename in list_of_json:
+        with open(filename,'r',encoding="UTF8") as file:
+            json_data = json.load(file)
+            data_size = len(json_data["data"])
 
-            
-        for i in range(0,data_size):
-            date_time = json_data["data"][i]["date_time"]
-            username = json_data["data"][i]["username"]
-            user_id = json_data["data"][i]["user_id"]
-            post_type = json_data["data"][i]["post_type"]
-            text = json_data["data"][i]["text"]
-            image = json_data["data"][i]["image"]
-            tempdata = [date_time,username,user_id,text, post_type,image]
-            data.append(tempdata)
+                
+            for i in range(0,data_size):
+                date_time = json_data["data"][i]["date_time"]
+                username = json_data["data"][i]["username"]
+                user_id = json_data["data"][i]["user_id"]
+                post_type = json_data["data"][i]["post_type"]
+                text = json_data["data"][i]["text"]
+                image = json_data["data"][i]["image"]
+                tempdata = [date_time,username,user_id,text, post_type,image]
+                data.append(tempdata)
             
         with open('csv/temp_scapping_data.csv', 'a',encoding="UTF8") as file:
             header = ['date_time','username','user_id','text','post_type','image']
@@ -94,7 +97,7 @@ def str_to_list(msg):
     return msg
 
 def get_all_csv_file():
-    list_of_files = glob.glob('scrap_data_csv/*.csv') # * means all if need specific format then *.csv
+    list_of_files = glob.glob('scrap_data_json/*.csv') # * means all if need specific format then *.csv
     return list_of_files #make_json\log_json\scraping_26-12-2022_14.json
 
 def get_all_json_file():
