@@ -110,6 +110,9 @@ def split_word(text):
     # Remove stop words ภาษาไทย และภาษาอังกฤษ
     tokens = [i for i in tokens if not i in th_stop and not i in en_stop]
 
+    # ลบตัวเลข
+    # tokens = [i for i in tokens if not i.isnumeric()]
+
     # ลบช่องว่าง
     tokens = [i for i in tokens if not ' ' in i]
 
