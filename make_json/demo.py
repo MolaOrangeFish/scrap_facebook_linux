@@ -21,8 +21,6 @@ print('--------------------')
 
 for ex_txt in txt_data:
     start_time = datetime.now()
-    print(ex_txt)
-    # normalizeจัดการกับการพิมพ์ข้อความที่เรียงผิดหรือใช้ผิดอักษร เช่น "แ" พิมพ์เป็น "เ เ"
     text = cleanning(ex_txt)
     print(text)
     print('--------------------')
