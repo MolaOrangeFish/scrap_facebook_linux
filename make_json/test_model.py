@@ -1,28 +1,32 @@
-import pickle
+import joblib
 from package.scrap_function import *
 from sklearn.feature_extraction.text import TfidfTransformer,CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
-from sklearn import *
+def word_split(text):
+    words = re.split(r",",text)
+    return words
 
-
-def text_process(text):
-    text = re.sub("\[|\]|'|,"," ",text)
+def text_process_save_comma(text): ##save ,
+    text = re.sub("\[|\]|'|"," ",text).replace(" ", "")
+    text = re.sub(r'[0-9]+'," ",text) ##remove nember
     return text
 
 filename  = "prepare_dataset/model/check_type.sav"
-filenamevec = "prepare_dataset/model/vectorizer.sav"
+filenamevec = "prepare_dataset\model\count_vectorizer.sav"
 
-loaded_model = pickle.load(open(filename,"rb"))
-vectorizer = pickle.load(open(filenamevec,"rb"))
+loaded_model = joblib.load(open(filename,"rb"))
+vectorizer = joblib.load(open(filenamevec,"rb"))
 
 text = """
-หอไหนติดเน็ตเองได้บ้างครับ ขอระแวก วงศ์สว่าง-พระราม 7"""
+ขออนุญาตส่งต่อค่ะ 
+ราคาอยู่ใต้รูปนะคะ พอดีจะย้ายหอแล้วค่ะ
+"""
 
 text = cleanning(text)
 text = str(split_word(text))
-text = text_process(text)
-
+text = text_process_save_comma(text)
+print(text)
 text_list = vectorizer.transform([text]).reshape(1,-1).todense()
 
 print(text_list)
