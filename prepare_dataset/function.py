@@ -21,6 +21,7 @@ en_stop = tuple(get_stop_words('en'))
 
 def add_data_to_csv_with_deepcut(text,label):
     data=[]
+    flag=0
     try:
         clean_text = cleanning(text)
         list_of_word = split_word(clean_text)
@@ -28,9 +29,11 @@ def add_data_to_csv_with_deepcut(text,label):
         temp_data=[list_of_word,str(label)]
         data.append(temp_data)
         with open('by_selenium_data1.csv', 'a',encoding="UTF8") as file:
-            # header = ['text','post_type']
+            header = ['text','post_type']
             writer = csv.writer(file)
-            # writer.writerow(header)
+            if(flag == 0):
+                flag=1
+                writer.writerow(header)
             writer.writerows(data)
     except:
         print("skip eiei")
@@ -41,6 +44,7 @@ def csv_to_csv():
     data=[]
     list_of_csv = get_all_csv_file()
     for name in list_of_csv:
+        flag=0
         scrap_data = pd.read_csv(name)
         df = pd.DataFrame(data=scrap_data)
         for i in range(0,df.shape[0]):
@@ -57,9 +61,11 @@ def csv_to_csv():
             tempdata = [date_time,username,user_id,text_list, post_type,image]
             data.append(tempdata)
         with open('all_scapping_dataasas.csv', 'a',encoding="UTF8") as file:
-            # header = ['date_time','username','user_id','text','post_type','image']
+            header = ['date_time','username','user_id','text','post_type','image']
             writer = csv.writer(file)
-            # writer.writerow(header)
+            if(flag == 0):
+                flag=1
+                writer.writerow(header)
             writer.writerows(data)
 
 def json_to_csv():
@@ -67,6 +73,7 @@ def json_to_csv():
     list_of_json = get_all_json_file()
     print(list_of_json)
     for filename in list_of_json:
+        flag=0
         with open(filename,'r',encoding="UTF8") as file:
             json_data = json.load(file)
             data_size = len(json_data["data"])
@@ -83,9 +90,12 @@ def json_to_csv():
                 data.append(tempdata)
             
         with open('csv/temp_scapping_data.csv', 'a',encoding="UTF8") as file:
+        # with open('powerbi/ml.csv', 'a',encoding="UTF8") as file:
             header = ['date_time','username','user_id','text','post_type','image']
             writer = csv.writer(file)
-            # writer.writerow(header)
+            if(flag == 0):
+                flag=1
+                writer.writerow(header)
             writer.writerows(data)
     print("Done converting")
                 
@@ -101,7 +111,8 @@ def get_all_csv_file():
     return list_of_files #make_json\log_json\scraping_26-12-2022_14.json
 
 def get_all_json_file():
-    list_of_files = glob.glob('scrap_data_json/*.json') # * means all if need specific format then *.csv
+    # list_of_files = glob.glob('scrap_data_json/*.json') # * means all if need specific format then *.csv
+    list_of_files = glob.glob('powerbi/*.json') # * means all if need specific format then *.csv
     return list_of_files #make_json\log_json\scraping_26-12-2022_14.json
 
 def split_word(text):
