@@ -19,8 +19,9 @@ loaded_model = joblib.load(open(filename,"rb"))
 vectorizer = joblib.load(open(filenamevec,"rb"))
 
 text = """
-ขออนุญาตส่งต่อค่ะ 
-ราคาอยู่ใต้รูปนะคะ พอดีจะย้ายหอแล้วค่ะ
+ใครพบเห็น apple pencil 2 หายที่ห้อง78-316
+ หายตอนเรียนช่วงเช้าใครเจอรบกวนติดต่อมาที
+เบอร์ 0927023322นะครับ
 """
 
 text = cleanning(text)

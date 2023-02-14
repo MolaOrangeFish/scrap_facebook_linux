@@ -70,11 +70,12 @@ def csv_to_csv():
 
 def json_to_csv():
     data = []
-    list_of_json = get_all_json_file()
-    print(list_of_json)
-    for filename in list_of_json:
+    # list_of_json = get_all_json_file()
+    # print(list_of_json)
+    # for filename in list_of_json:
+    for i in range(1):
         flag=0
-        with open(filename,'r',encoding="UTF8") as file:
+        with open('temp_json\scraping_09-02-2023_20.json','r',encoding="UTF8") as file:
             json_data = json.load(file)
             data_size = len(json_data["data"])
 
@@ -89,8 +90,8 @@ def json_to_csv():
                 tempdata = [date_time,username,user_id,text, post_type,image]
                 data.append(tempdata)
             
-        with open('csv/temp_scapping_data.csv', 'a',encoding="UTF8") as file:
-        # with open('powerbi/ml.csv', 'a',encoding="UTF8") as file:
+        # with open('csv/temp_scapping_data.csv', 'a',encoding="UTF8") as file:
+        with open('temp_json/bag.csv', 'a',encoding="UTF8") as file:
             header = ['date_time','username','user_id','text','post_type','image']
             writer = csv.writer(file)
             if(flag == 0):
