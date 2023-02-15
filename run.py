@@ -6,7 +6,7 @@ from make_json.package.firebase_function import update_time_to_firebase
 def checktime():
     now = datetime.now()
     current_hour = now.strftime("%H")  #getcurrent time just usn only hour
-    if(current_hour in ['18','06','17']): #เป็นเวลา หก เช้า หรือ หกเย็นมั้ย
+    if(current_hour in ['18','06','04']): #เป็นเวลา หก เช้า หรือ หกเย็นมั้ย
         return True
     else:
         return False
@@ -25,7 +25,8 @@ while(True):
             time.sleep(1)
         os.system('pwd')
         # os.system('python make_json/main.py')
-        # os.system('python make_json/run_soup.py')
+        os.system('python make_json/main_ai.py')
+        os.system('python make_json/run_soup.py')
         now = datetime.now()
         current_time = now.strftime("%a %d %b %Y %H:%M")
         update_time_to_firebase(current_time)

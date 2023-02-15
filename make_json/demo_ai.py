@@ -21,7 +21,7 @@ def text_process_save_comma(text): ##save ,
 
 ##Load model
 filename  = "prepare_dataset/model/check_type.sav"
-filenamevector = "prepare_dataset\model\count_vectorizer.sav"
+filenamevector = "prepare_dataset/model/count_vectorizer.sav"
 loaded_model = joblib.load(open(filename,"rb"))
 vectorizer = joblib.load(open(filenamevector,"rb"))
 
