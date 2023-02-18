@@ -1,6 +1,6 @@
 from function import json_to_csv,csv_to_csv,add_data_to_csv_with_deepcut
 import pandas as pd
-from storage import data1,data2,data3,data4
+from storage import data5
 
 # df = pd.read_csv('data.csv')
 # print(df.shape)
@@ -17,7 +17,7 @@ json_to_csv()
 ####################
 ### Import data by hand##
 """
-data = data4
+data = data5
 size = len(data)
 print(size)
 

@@ -22,21 +22,20 @@ en_stop = tuple(get_stop_words('en'))
 def add_data_to_csv_with_deepcut(text,label):
     data=[]
     flag=0
-    try:
-        clean_text = cleanning(text)
-        list_of_word = split_word(clean_text)
+
+    clean_text = cleanning(text)
+    list_of_word = split_word(clean_text)
         
-        temp_data=[list_of_word,str(label)]
-        data.append(temp_data)
-        with open('by_selenium_data1.csv', 'a',encoding="UTF8") as file:
-            header = ['text','post_type']
-            writer = csv.writer(file)
-            if(flag == 0):
-                flag=1
-                writer.writerow(header)
-            writer.writerows(data)
-    except:
-        print("skip eiei")
+    temp_data=[list_of_word,str(label)]
+    data.append(temp_data)
+    with open('prepare_dataset/csv/by_selenium_data2.csv', 'a',encoding="UTF8") as file:
+        header = ['text','post_type']
+        writer = csv.writer(file)
+        if(flag == 0):
+            flag=1
+            writer.writerow(header)
+        writer.writerows(data)
+
     
     
 
@@ -70,35 +69,33 @@ def csv_to_csv():
 
 def json_to_csv():
     data = []
-    # list_of_json = get_all_json_file()
-    # print(list_of_json)
-    # for filename in list_of_json:
-    for i in range(1):
-        flag=0
-        with open('temp_json\scraping_09-02-2023_20.json','r',encoding="UTF8") as file:
-            json_data = json.load(file)
-            data_size = len(json_data["data"])
-
+    list_of_json = get_all_json_file()
+    print(list_of_json)
+    for filename in list_of_json:
+        for i in range(1):
+            flag=0
+            with open(filename,'r',encoding="UTF8") as file:
+                json_data = json.load(file)
+                data_size = len(json_data["data"])
+                for i in range(0,data_size):
+                    date_time = json_data["data"][i]["date_time"]
+                    username = json_data["data"][i]["username"]
+                    user_id = json_data["data"][i]["user_id"]
+                    post_type = json_data["data"][i]["post_type"]
+                    text = json_data["data"][i]["text"]
+                    image = json_data["data"][i]["image"]
+                    tempdata = [date_time,username,user_id,text, post_type,image]
+                    data.append(tempdata)
                 
-            for i in range(0,data_size):
-                date_time = json_data["data"][i]["date_time"]
-                username = json_data["data"][i]["username"]
-                user_id = json_data["data"][i]["user_id"]
-                post_type = json_data["data"][i]["post_type"]
-                text = json_data["data"][i]["text"]
-                image = json_data["data"][i]["image"]
-                tempdata = [date_time,username,user_id,text, post_type,image]
-                data.append(tempdata)
-            
-        # with open('csv/temp_scapping_data.csv', 'a',encoding="UTF8") as file:
-        with open('temp_json/bag.csv', 'a',encoding="UTF8") as file:
-            header = ['date_time','username','user_id','text','post_type','image']
-            writer = csv.writer(file)
-            if(flag == 0):
-                flag=1
-                writer.writerow(header)
-            writer.writerows(data)
-    print("Done converting")
+            with open('csv/temp_scapping_data.csv', 'a',encoding="UTF8") as file:
+            # with open('temp_json/bag.csv', 'a',encoding="UTF8") as file:
+                header = ['date_time','username','user_id','text','post_type','image']
+                writer = csv.writer(file)
+                if(flag == 0):
+                    flag=1
+                    writer.writerow(header)
+                writer.writerows(data)
+        print("Done converting")
                 
 
 def str_to_list(msg):
@@ -112,8 +109,8 @@ def get_all_csv_file():
     return list_of_files #make_json\log_json\scraping_26-12-2022_14.json
 
 def get_all_json_file():
-    # list_of_files = glob.glob('scrap_data_json/*.json') # * means all if need specific format then *.csv
-    list_of_files = glob.glob('powerbi/*.json') # * means all if need specific format then *.csv
+    list_of_files = glob.glob('scrap_data_json/*.json') # * means all if need specific format then *.csv
+    # list_of_files = glob.glob('powerbi/*.json') # * means all if need specific format then *.csv
     return list_of_files #make_json\log_json\scraping_26-12-2022_14.json
 
 def split_word(text):
@@ -123,7 +120,7 @@ def split_word(text):
     tokens = [i for i in tokens if not i in th_stop and not i in en_stop]
 
     # ลบตัวเลข
-    tokens = [i for i in tokens if not i.isnumeric()]
+    # tokens = [i for i in tokens if not i.isnumeric()]
 
     # ลบช่องว่าง
     tokens = [i for i in tokens if not ' ' in i]
