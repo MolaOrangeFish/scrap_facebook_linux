@@ -6,7 +6,7 @@ from make_json.package.firebase_function import update_time_to_firebase
 def checktime():
     now = datetime.now()
     current_hour = now.strftime("%H")  #getcurrent time just usn only hour
-    if(current_hour in ['18','06','04']): #เป็นเวลา หก เช้า หรือ หกเย็นมั้ย
+    if(current_hour in ['18','06']): #เป็นเวลา หก เช้า หรือ หกเย็นมั้ย
         return True
     else:
         return False
