@@ -7,7 +7,7 @@ from datetime import datetime
 
 group_id = '197822284350539' #KMUTNB Community
 
-for post in get_posts(group=group_id, pages=5, extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}):#group=group_id, pages=20,cookies="from_browser", extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}
+for post in get_posts(group=group_id, pages=3, extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}):#group=group_id, pages=20,cookies="from_browser", extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}
     start_time = datetime.now()
     print('++++++++++++++++++++++++++++++++++++++++++++')
     text = cleanning(post['post_text'])
