@@ -12,7 +12,6 @@ for post in get_posts(group=group_id, pages=3, extra_info=True, option={"comment
     print('++++++++++++++++++++++++++++++++++++++++++++')
     text = cleanning(post['post_text'])
     print(text)
-
     clean_txt = split_word(text)
     print("TEXT  :",(clean_txt))#type <class 'list'>
     post_type = get_post_type(clean_txt)

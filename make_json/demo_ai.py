@@ -32,8 +32,9 @@ u_id = '100008420610299'
 url = 'https://m.facebook.com/photo/view_full_size'
 
 txt_data = ["""
-ขายสนใจหนังสือฟรีไหมส่งต่อน้า
-""","เจอหูฟังหล่นหายหน้าตึกวิท"]
+ปัตตาเลี่ยนพรเอมเบอร์รอง 1-8 ราคา 200 บาท
+
+"""]
 
 img = ['https://scontent.fhlz2-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/58745049_2257182057699568_1761478225390731264_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8024bb&_nc_ohc=ygH2fPmfQpAAX92ABYY&_nc_ht=scontent.fhlz2-1.fna&tp=14&oh=7a8a7b4904deb55ec696ae255fff97dd&oe=60A36717',
        'https://cdn3.virtualsheetmusic.com/images/first_pages/HL-v/HL-319665First_BIG.png']
@@ -46,26 +47,29 @@ for ex_txt in txt_data:
     print(text)
     print('--------------------')
 
-    clean_txt  = str(split_word(text))
-    clean_txt  = text_process_save_comma(clean_txt)
-    print(clean_txt )
-    text_list = vectorizer.transform([clean_txt]).reshape(1,-1).todense()
-    print(text_list)
+    clean_txt_show = split_word(text)
+    print(clean_txt_show)
+    clean_txt_ai  = str(split_word(text))
+    clean_txt_ai  = text_process_save_comma(clean_txt_ai)  ##clean number 
+    text_list = vectorizer.transform([clean_txt_ai]).reshape(1,-1).todense()
+    
     predictions = loaded_model.predict(np.asarray(text_list))
-    post_type = predictions[0]
+    post_type = predictions[0] ##0:FIND    1:SELL    2:OTHER
 
     if (post_type == 1):
         print("SELL")
         # create & insert data in to temp_dict_sell
-        temp_dict = insert_data_to_dict("sell", time1, u_name, u_id, clean_txt, img, url)
+        temp_dict = insert_data_to_dict("sell", time1, u_name, u_id, clean_txt_show, img, url)
 
         # find the detail of place & describe (color)
-        get_all_detail(clean_txt)
+        get_all_detail(clean_txt_show)
 
         # make data in list not duplicate
         temp_place = list(set(temp_place))
         temp_describe = list(set(temp_describe))
         temp_category = list(set(temp_category))
+
+        print(f'temp_place = {str(temp_place)}\ntemp_describe = {str(temp_describe)}\ntemp_category =  {str(temp_category)}')
         # send data in temp_list to dict
         for data in temp_place:
             temp_dict["place"].extend({data})
@@ -84,10 +88,10 @@ for ex_txt in txt_data:
     elif (post_type == 0):
         print("FIND")
         # create & insert data in to temp_dict_find
-        temp_dict = insert_data_to_dict("find", time2, u_name, u_id,clean_txt, img, url)
+        temp_dict = insert_data_to_dict("find", time2, u_name, u_id,clean_txt_show, img, url)
 
         # find the detail of place & describe (color)
-        get_all_detail(clean_txt)
+        get_all_detail(clean_txt_show)
 
         # make data in list not duplicate
         temp_place = list(set(temp_place))
@@ -116,4 +120,4 @@ for ex_txt in txt_data:
 # writejson(jsonString)
 
 # TODO TEST DATA_DICT
-print(data_dict)
+# print(data_dict)

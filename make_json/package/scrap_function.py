@@ -31,16 +31,11 @@ def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
                 data_dict["price"] = price
             except:
                 print("indexsym not found")
-            try:
-                indexfree = txt.index("ฟรี")
-                print(f" indexfree::{indexfree}")
-                price = "free"
-                data_dict["price"] = price
-            except:
-                print("indexfree not found")
 
         except:
             data_dict["price"] = "-"
+        print(data_dict["price"])
+        # print(data_dict)
     elif post_type == "find": ##mean temp_dict_sell
         data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[]}
         data_dict["date_time"] = time
@@ -64,6 +59,7 @@ def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
 
 #find the detail of place & describe (color)
 def get_all_detail(txt):
+     print(f"text:{txt}  type:{type(txt)}")
      for data in set(txt):
         data = data.lower()
         cate = get_category(data)
