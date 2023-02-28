@@ -59,20 +59,18 @@ def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
 
 #find the detail of place & describe (color)
 def get_all_detail(txt):
-     print(f"text:{txt}  type:{type(txt)}")
+     print(f"\ntext:{txt}  type:{type(txt)} len:{len(txt)}")
      for data in set(txt):
         data = data.lower()
-        cate = get_category(data)
+        get_category(data)
 
         place_list = db.reference('detail/place') #get place data list
         color_list = db.reference('detail/color') #get place data list
+
         if data in set(place_list.get()):
-             temp_place.append(data)
+            temp_place.append(data)
         elif data in set(color_list.get()):
             temp_describe.append(data)
-        else:
-            if cate is not None:
-                temp_category.append(cate)
     
 
 ##get category
@@ -82,7 +80,13 @@ def get_category(data):
         # print(f"\n\n\n{cate_name}\n\n\n") 
         cate_list = db.reference(f'detail/category/{cate_name}')
         if data in set(cate_list.get()): ## {ref.get()} get data in each category <class 'list'>
-            return cate_name  ##return category as string
+            temp_category.append(cate_name)  ##return category as string
+
+##check empty list
+def check_empty(*argv):
+    for lists in argv:
+        if lists == []:
+            lists.append("-")
 
 ##get post_type
 def get_post_type(data):

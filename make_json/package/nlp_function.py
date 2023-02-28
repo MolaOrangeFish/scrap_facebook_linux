@@ -54,8 +54,8 @@ def clean_msg(msg):
     # ลบ hashtag
     msg = re.sub(r'#', '', msg)
     # ลบ เครื่องหมายคำพูด (punctuation)
-    for c in string.punctuation:
-        msg = re.sub(r'\{}'.format(c), '', msg)
+    msg = re.sub(r"'", '', msg)
+    msg = re.sub(r'"', '', msg)
     # ทำให้ทุกคำต่อกัน
     msg = ' '.join(msg.split())
     # ลบ link https
