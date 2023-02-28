@@ -73,7 +73,6 @@ def get_all_detail(txt):
         else:
             if cate is not None:
                 temp_category.append(cate)
-
     
 
 ##get category
