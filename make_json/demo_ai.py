@@ -29,8 +29,7 @@ u_id = '100008420610299'
 url = 'https://m.facebook.com/photo/view_full_size'
 
 txt_data = ["""หาหอห้องพัดลมราคา'2000-3000' บาท ครับ""",
-"""ปล่อยบัตร paradox 1 ใบครับ 150บาท""",
-"""ขายพัดลมหอเก่าไม่แพง 150 บาท""",
+"""ปล่อยบัตร paradox 1 ใบครับ """,
 "เจอpencil powerbankหล่นหายหน้าตึกวิท"]
 
 img = ['https://scontent.fhlz2-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/58745049_2257182057699568_1761478225390731264_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8024bb&_nc_ohc=ygH2fPmfQpAAX92ABYY&_nc_ht=scontent.fhlz2-1.fna&tp=14&oh=7a8a7b4904deb55ec696ae255fff97dd&oe=60A36717',
@@ -38,7 +37,7 @@ img = ['https://scontent.fhlz2-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/587450
 print('--------------------')
 
 
-for i in range(1):
+for i in range(3):
     start_time = datetime.now()
     text = cleanning(txt_data[i])
     print(text)

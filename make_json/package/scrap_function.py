@@ -14,27 +14,24 @@ def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
         data_dict["text"] = txt
         data_dict["image"] = img
         data_dict["post_url"] = url
+        data_dict["price"] = "-"
         #get the price by find index of บาท  and get clean_txt[index-1]
         try:
-            try:
-                index = txt.index("บาท")
-                print(f"index::{index} ")
-                price = txt[index-1]
-                data_dict["price"] = price
-            except:
-                print("index not found")
-                
-            try:
-                indexsym = txt.index("฿")
-                print(f" indexsym::{indexsym}")
-                price = txt[indexsym-1]
-                data_dict["price"] = price
-            except:
-                print("indexsym not found")
-
+            index = txt.index("บาท")
+            print(f"index::{index} ")
+            price = txt[index-1]
+            data_dict["price"] = price
         except:
-            data_dict["price"] = "-"
-        print(data_dict["price"])
+            print("index not found")
+                
+        try:
+            indexsym = txt.index("฿")
+            print(f" indexsym::{indexsym}")
+            price = txt[indexsym-1]
+            data_dict["price"] = price
+        except:
+            print("indexsym not found")
+
         # print(data_dict)
     elif post_type == "find": ##mean temp_dict_sell
         data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[]}
