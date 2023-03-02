@@ -1,20 +1,14 @@
-from package.libary import *
+from package.global_param import *
 from package.nlp_function import *
 from package.firebase_function import db
 
-from facebook_scraper import get_posts
 ##insert data in to temp_dict
 def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
     if post_type == "sell":  ##mean temp_dict_find
         data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[],'price':{}}
-        data_dict["date_time"] = time
-        data_dict["username"] = u_name
-        data_dict["user_id"] = u_id
         data_dict["post_type"] = 'ประกาศซื้อขาย'
-        data_dict["text"] = txt
-        data_dict["image"] = img
-        data_dict["post_url"] = url
         data_dict["price"] = "-"
+        
         #get the price by find index of บาท  and get clean_txt[index-1]
         try:
             index = txt.index("บาท")
@@ -35,22 +29,20 @@ def insert_data_to_dict(post_type,time,u_name,u_id,txt,img,url):
         # print(data_dict)
     elif post_type == "find": ##mean temp_dict_sell
         data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[]}
-        data_dict["date_time"] = time
-        data_dict["username"] = u_name
-        data_dict["user_id"] = u_id
         data_dict["post_type"] = 'ประกาศของหาย'
-        data_dict["text"] = txt
-        data_dict["image"] = img
-        data_dict["post_url"] = url
+        
     elif post_type == "muuu":
         data_dict = {"date_time": {}, "username": {}, "user_id": {},"post_type": {}, "text": {}, 'image': [], 'post_url': {},'place':[],'describe':[],'category':[]}
-        data_dict["date_time"] = time
-        data_dict["username"] = u_name
-        data_dict["user_id"] = u_id
         data_dict["post_type"] = 'mumu'
-        data_dict["text"] = txt
-        data_dict["image"] = img
-        data_dict["post_url"] = url
+    
+    #add others datadict
+    data_dict["date_time"] = time
+    data_dict["username"] = u_name
+    data_dict["user_id"] = u_id
+    data_dict["text"] = txt
+    data_dict["image"] = img
+    data_dict["post_url"] = url
+
     return data_dict
 
 
@@ -104,8 +96,8 @@ def set_lower(text_list):
         temp_list.append(i.lower())
     return temp_list
 
-
 #getting the time
+from datetime import datetime
 def gettime():
     now = datetime.now()
     current_time = now.strftime("_%d-%m-%Y_%H")

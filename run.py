@@ -1,12 +1,13 @@
-import os
-from datetime import datetime
-import time
 from make_json.package.firebase_function import update_time_to_firebase
+from datetime import datetime
+from check_connection import ping
+import time
+import os
 
 def checktime():
     now = datetime.now()
     current_hour = now.strftime("%H")  #getcurrent time just usn only hour
-    if(current_hour in ['18','06','17']): #เป็นเวลา หก เช้า หรือ หกเย็นมั้ย
+    if(current_hour in ['18','06']): #เป็นเวลา หก เช้า หรือ หกเย็นมั้ย
         return True
     else:
         return False
@@ -14,17 +15,12 @@ def checktime():
 flag = True
 runtime = False
 
-while(True):
-    
-    time.sleep(5)  #delay 5 sec in this demo we will use delay 10 min in real server
-    print(checktime())
+while(True): 
     runtime = checktime() 
-    if(flag == True and runtime == True):
-        for i in range(1,0,-1): #range(start,stop,step)
+    if(flag == True and runtime == True and ping()==True):
+        for i in range(3,0,-1): #range(start,stop,step)
             print(f"Start Scaping in {i} Second(s).")
             time.sleep(1)
-        os.system('pwd')
-        # os.system('python make_json/main.py')
         os.system('python make_json/main_ai.py')
         os.system('python make_json/run_soup.py')
         now = datetime.now()
@@ -32,4 +28,7 @@ while(True):
         update_time_to_firebase(current_time)
         print(current_time )
         flag = False
+    else:
+        print("\nPlease check network connection and try again.\n")
+        time.sleep(5)
     

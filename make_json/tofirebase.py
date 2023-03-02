@@ -1,6 +1,5 @@
 from package.firebase_function import *
-from package.scrap_function import gettime
-from package.libary import json
+from package.scrap_function import gettime,json
 
 # Fetch the service account key JSON file contents
 cred = credentials.Certificate(r'C:\Users\Corgi\Documents\GitHub\scappingFacebook\make_json\facebookscap-b297c-firebase-adminsdk-2af7k-8f6f9fab6e.json')
@@ -14,7 +13,6 @@ firebase_admin.initialize_app(cred, {
 ref = db.reference("/")
 ref.set({
 	"scrap_data":-1    #-1 is set data to scrap_data
-
 })
 
 ref = db.reference("/scrap_data")

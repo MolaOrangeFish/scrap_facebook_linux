@@ -8,9 +8,6 @@ from pythainlp.corpus import thai_stopwords
 from stop_words import get_stop_words
 from pythainlp.util import normalize
 import pandas as pd
-import time
-import requests
-from bs4 import BeautifulSoup
 
 
 th_stop_origin = tuple(thai_stopwords())
@@ -37,8 +34,6 @@ def add_data_to_csv_with_deepcut(text,label):
         writer.writerows(data)
 
     
-    
-
 def csv_to_csv():
     data=[]
     list_of_csv = get_all_csv_file()
@@ -118,9 +113,6 @@ def split_word(text):
 
     # Remove stop words ภาษาไทย และภาษาอังกฤษ
     tokens = [i for i in tokens if not i in th_stop and not i in en_stop]
-
-    # ลบตัวเลข
-    # tokens = [i for i in tokens if not i.isnumeric()]
 
     # ลบช่องว่าง
     tokens = [i for i in tokens if not ' ' in i]

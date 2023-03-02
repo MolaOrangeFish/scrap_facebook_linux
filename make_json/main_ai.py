@@ -1,12 +1,12 @@
 from package.nlp_function import *
 from package.scrap_function import *
 from package.firebase_function import *
-# import pythainlp
-from datetime import datetime
-
-import joblib
 from package.scrap_function import *
+from facebook_scraper import get_posts
 import numpy as np
+import joblib
+import json
+
 
 def word_split(text):
     words = re.split(r",",text)
@@ -50,7 +50,7 @@ for post in get_posts(group=group_id, pages=3, extra_info=True, option={"comment
         elif(post_type==2):
             temp_dict = insert_data_to_dict("muuu",post['time'],post['username'],post['user_id'],clean_txt_show,post['images'],post['post_url'])
 
-        # find the detail of place & describe (color)
+        # find the detail of place & describe (color) if data is not 2
         if(post_type!=2):
             get_all_detail(clean_txt_show)
             check_empty(temp_place,temp_describe,temp_category) #if temp place,describe,category are empty it will fill with "-"
@@ -68,9 +68,11 @@ for post in get_posts(group=group_id, pages=3, extra_info=True, option={"comment
                 temp_dict["describe"].extend({data})
             for data in temp_category_rm_dp:
                 temp_dict["category"].extend({data})
-            
+
+        #add all data 0,1 and 2 to data_dict for collecting data to make dataset for traing model   
         data_dict[str(post['time'])] = temp_dict
         
+        #if data is not 2
         if(post_type!=2):
             time = str(temp_dict["date_time"])
             put_data_to_firebase(time, temp_dict)

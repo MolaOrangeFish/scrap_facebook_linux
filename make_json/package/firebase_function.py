@@ -24,13 +24,14 @@ def put_data_to_firebase(post_time:str,detail):
     messenger = firebase.FirebaseApplication(url)
     messenger.put(f'/scraper/{year}/{month}',str(post_time),detail)
 
-
+#####for demo#####
 def put_data_to_firebase_demo(post_time:str,detail):
     year = post_time[0:4]
     month=post_time[5:7]
     url = "https://kmutnbcommunity-default-rtdb.asia-southeast1.firebasedatabase.app/"
     messenger = firebase.FirebaseApplication(url)
     messenger.put(f'/demo/{year}/{month}',str(post_time),detail)
+#####for demo#####
 
 ##remove data
 def remove_data_in_firebase(post_time:str):
@@ -39,7 +40,7 @@ def remove_data_in_firebase(post_time:str):
     print("\n\nremoved\n\n")
     wanna_delete = db.reference(f"scraper/{year}/{month}/{post_time}")
     wanna_delete.delete()
-    print(f"###############DATA::{post_time} was removed##############")
+
 
 def send_error(msg):
     now = datetime.now()

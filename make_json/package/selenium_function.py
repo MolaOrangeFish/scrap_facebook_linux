@@ -1,20 +1,14 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 import time
-import pandas as pd
 
 
 def find_index(list_to_find,key):
     return [idx for idx, value in enumerate(list_to_find) if value == key]
 
 
-
 def get_comment_facebooks(url_link ):
-    # url_link = "https://m.facebook.com/groups/197822284350539/permalink/1328428194623270/?m_entstream_source=group&anchor_composer=false&paipv=0&eav=AfY5Kh9IARAsW4Dx8_uXgPlwi2yzuFYm95K8B3B5siV0is-BIMfaCaMCdEj0MWb3Im0" #func param
-
     driver = webdriver.Edge()
     time.sleep(2)
 
@@ -47,6 +41,5 @@ def get_comment_facebooks(url_link ):
     Comment=[]
 
     Name_Comment_parse()
-    # print(Name)
     print(f"Comments:: {Comment}")  #print all comment that post owner commented
     return "".join(Comment) #will return as str by joining all data in Comment_List

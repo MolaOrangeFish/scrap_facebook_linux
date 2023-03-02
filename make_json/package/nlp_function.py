@@ -5,9 +5,7 @@ from pythainlp.corpus import thai_stopwords
 from stop_words import get_stop_words
 from pythainlp.util import normalize
 
-# import nltk
-# nltk.download('omw-1.4')
-# nltk.download('words')
+
 th_stop_origin = tuple(thai_stopwords())
 # append tuple thai stop word
 th_stop = (th_stop_origin + ("สวัสดี", "ค่ะ", "เลย", "เรย","ๆ", "สุด", "นะคะ", "นะค่ะ", "ค่า", "อีกแล้ว","‼","⁉"))
@@ -37,7 +35,7 @@ def remove_emoji(string):
     return emoji_pattern.sub(r'', string)
 
 def split_word(text):
-    tokens = word_tokenize(text, engine='deepcut')  # แบ่งคำภาษาไทย
+    tokens = word_tokenize(text, engine='deepcut')  # แบ่งคำภาษาไทย using deepcut  https://github.com/rkcosmos/deepcut
 
     # Remove stop words ภาษาไทย และภาษาอังกฤษ
     tokens = [i for i in tokens if not i in th_stop and not i in en_stop]
