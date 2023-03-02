@@ -30,12 +30,19 @@ while(True):
         flag = False
     else:
         os.system('cls') #clear screen
+        ping_count=0
         if(ping()==False):
+            if(ping_count==5):
+                print("\nTaking a break 30 mins facebook.com can't be reach.\n")
+                time.sleep(1800) #sleep for 30 mins
+                
             print("\nPlease check network connection and try again.\n")
-            time.sleep(5) #sleep 5 sec
+            time.sleep(10) #sleep 10 sec
+            ping_count+=1
+
         elif(runtime==False):
             os.system('cls') #clear screen
-            print("\nTaking a break.\n")
+            print("\nTaking a break 5 mins.\n")
             time.sleep(300) #sleep for 5 min
 
         
