@@ -1,0 +1,2238 @@
+{
+  "close_post": [
+    "sold",
+    "หาเจอ",
+    "ปิด",
+    "❌",
+    "เจอ",
+    "ขาย"
+  ],
+  "demo": {
+    "2020": {
+      "07": {
+        "2020-07-10 10:38:42": {
+          "category": [
+            "apartment_condo",
+            "stuff"
+          ],
+          "date_time": "2020-07-10 10:38:42",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://scontent.fhlz2-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/58745049_2257182057699568_1761478225390731264_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8024bb&_nc_ohc=ygH2fPmfQpAAX92ABYY&_nc_ht=scontent.fhlz2-1.fna&tp=14&oh=7a8a7b4904deb55ec696ae255fff97dd&oe=60A36717",
+            "https://cdn3.virtualsheetmusic.com/images/first_pages/HL-v/HL-319665First_BIG.png"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/photo/view_full_size",
+          "price": "20003000",
+          "text": [
+            "หา",
+            "หอ",
+            "ห้อง",
+            "พัดลม",
+            "ราคา",
+            "20003000",
+            "บาท"
+          ],
+          "user_id": "100008420610299",
+          "username": "BUBUMUMU"
+        },
+        "2020-07-10 11:38:42": {
+          "category": [
+            "card_ticket"
+          ],
+          "date_time": "2020-07-10 11:38:42",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://scontent.fhlz2-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/58745049_2257182057699568_1761478225390731264_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8024bb&_nc_ohc=ygH2fPmfQpAAX92ABYY&_nc_ht=scontent.fhlz2-1.fna&tp=14&oh=7a8a7b4904deb55ec696ae255fff97dd&oe=60A36717",
+            "https://cdn3.virtualsheetmusic.com/images/first_pages/HL-v/HL-319665First_BIG.png"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/photo/view_full_size",
+          "price": "-",
+          "text": [
+            "ปล่อย",
+            "บัตร",
+            "paradox",
+            "1",
+            "ใบ"
+          ],
+          "user_id": "100008420610299",
+          "username": "BUBUMUMU"
+        },
+        "2020-07-10 12:38:42": {
+          "category": [
+            "acessories"
+          ],
+          "date_time": "2020-07-10 12:38:42",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://scontent.fhlz2-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/58745049_2257182057699568_1761478225390731264_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8024bb&_nc_ohc=ygH2fPmfQpAAX92ABYY&_nc_ht=scontent.fhlz2-1.fna&tp=14&oh=7a8a7b4904deb55ec696ae255fff97dd&oe=60A36717",
+            "https://cdn3.virtualsheetmusic.com/images/first_pages/HL-v/HL-319665First_BIG.png"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/photo/view_full_size",
+          "text": [
+            "เจอ",
+            "pencil",
+            "powerbank",
+            "หล่น",
+            "หาย",
+            "หน้าตึกวิท"
+          ],
+          "user_id": "100008420610299",
+          "username": "BUBUMUMU"
+        }
+      }
+    }
+  },
+  "detail": {
+    "category": {
+      "acessories": [
+        "pencil",
+        "ปากกา",
+        "powerbank",
+        "หูฟัง",
+        "airpod",
+        "airpods",
+        "เคส",
+        "case",
+        "marshall",
+        "หู"
+      ],
+      "apartment_condo": [
+        "คอนโด",
+        "บ้านเช่า",
+        "สัญญา",
+        "หอ",
+        "หอพัก"
+      ],
+      "bag_wallet": [
+        "กระเป๋า",
+        "กระเป๋าตัง",
+        "เป๋า"
+      ],
+      "card_ticket": [
+        "บัตร",
+        "ตั๋ว"
+      ],
+      "clothing": [
+        "เข็มขัด",
+        "เสื้อ",
+        "กางเกง",
+        "กระโปรง",
+        "แว่น"
+      ],
+      "education": [
+        "หนังสือ",
+        "แฟ้ม",
+        "เเฟ้ม"
+      ],
+      "key": [
+        "กุญแจ",
+        "คีย์"
+      ],
+      "notebook_pc": [
+        "mac",
+        "notebook",
+        "pc",
+        "คอมพิวเตอร์",
+        "จอ",
+        "ps",
+        "playstation",
+        "laptop",
+        "laptops"
+      ],
+      "pet": [
+        "แมว",
+        "เเมว",
+        "สุนัข",
+        "หมา",
+        "กระต่าย",
+        "กระรอก",
+        "แฮมเตอร์",
+        "น้องแมว"
+      ],
+      "phone": [
+        "มือถือ",
+        "โทรศัพท์",
+        "ไอแพด",
+        "ไอเเพด",
+        "iphone",
+        "ipad",
+        "samsung",
+        "oppo",
+        "vivo"
+      ],
+      "stuff": [
+        "ราว",
+        "ตาก",
+        "โต๊ะ",
+        "กล่อง",
+        "ตู้เย็น",
+        "ikea",
+        "เก้าอี้",
+        "ปัตตาเลี่ยน",
+        "พัดลม"
+      ],
+      "vehicle": [
+        "รถยนต์",
+        "มอไซ",
+        "มอไซค์"
+      ],
+      "watch": [
+        "นาฬิกา",
+        "watch"
+      ]
+    },
+    "color": [
+      "ดำ",
+      "นํ้าตาล",
+      "นํ้าเงิน",
+      null,
+      "ฟ้า",
+      "เขียว",
+      "แดง",
+      "เเดง",
+      "ชมพู",
+      "ทอง",
+      "เหลือง",
+      "เทา",
+      "ส้ม",
+      "ม่วง",
+      "ขาว",
+      "พีช"
+    ],
+    "place": [
+      "subscribe",
+      "บ้าน",
+      "เซเว่น",
+      "มอ",
+      "ซอย",
+      "มจพ",
+      "บ่อเต่า",
+      "สะพาน",
+      "มะเร็ง",
+      "หอสมาทเพลส",
+      "ตึกนวมินทรราชินี",
+      "หอสมุด",
+      "ประชาสัมพันธ์",
+      "tgg",
+      "หญิงกาญจน์",
+      "หอพัฒน์ลัดดา",
+      "grove",
+      "tggs",
+      "สำนักงานรุ่งนภาแมนชั่น",
+      "หออารียา",
+      "สวนปาล์ม",
+      "สิรินปาร์ค",
+      "หอok",
+      "วัดน้อย",
+      "หอดุษฎีมาศ",
+      "หอเบส",
+      "atomplace",
+      "ulife",
+      "แล็ปฟิสิกส์",
+      "คอร์ดแบต",
+      "หอสุนทรีย์"
+    ]
+  },
+  "error": {
+    "05-01-2023 21:50:59": "'NoneType' object has no attribute 'text'",
+    "05-01-2023 21:51:00": "'NoneType' object has no attribute 'text'",
+    "05-01-2023 21:51:50": "'NoneType' object has no attribute 'text'",
+    "05-01-2023 21:51:51": "'NoneType' object has no attribute 'text'",
+    "05-01-2023 21:52:01": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 15:12:32": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 19:45:54": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 19:46:00": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 19:50:48": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 19:50:51": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 19:50:54": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 20:00:33": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 20:00:36": "'NoneType' object has no attribute 'text'",
+    "07-01-2023 20:00:39": "'NoneType' object has no attribute 'text'",
+    "28-02-2023 04:54:58": "'bool' object is not iterable",
+    "28-02-2023 04:56:57": "'bool' object is not iterable",
+    "28-02-2023 05:22:59": "list assignment index out of range",
+    "28-02-2023 15:32:56": "name 'temp_category' is not defined",
+    "28-02-2023 16:45:28": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:45:29": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:46:14": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:47:06": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:47:43": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:48:16": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:48:50": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:50:40": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:51:20": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:54:50": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:55:11": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:56:44": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:57:20": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 16:58:22": "insert_data_to_dict() missing 1 required positional argument: 'url'",
+    "28-02-2023 17:16:08": "'place'",
+    "28-02-2023 17:16:15": "'place'",
+    "28-02-2023 17:16:22": "'place'",
+    "28-02-2023 17:16:30": "'place'",
+    "28-02-2023 17:18:01": "'place'",
+    "28-02-2023 17:18:08": "'place'",
+    "28-02-2023 17:18:15": "'place'"
+  },
+  "scraper": {
+    "2022": {
+      "11": {
+        "2022-11-14 18:28:32": {
+          "date_time": "2022-11-14T18:28:32",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=207906658336443&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=207906655003110&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=207906715003104&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=207906708336438&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1285780975554659/",
+          "price": "75",
+          "text": [
+            "อนุญาต",
+            "โพสต์",
+            "แก้",
+            "หา",
+            "ยีราฟ",
+            "เชิญ",
+            "ออเดอร์",
+            "น้า",
+            "ยีราฟ",
+            "ตัว",
+            "75",
+            "บาท",
+            "ราคา",
+            "ราคา",
+            "โรง",
+            "ปั้น",
+            "ตอน",
+            "ทัก",
+            "คุย",
+            "ราคา",
+            "สมหวัง",
+            "ยินดี",
+            "น้า",
+            "สม",
+            "หวัง",
+            "ค้า",
+            "สนใจ",
+            "Inbox",
+            "สอบถาม",
+            "นัด",
+            "มจพ",
+            "4",
+            "กค",
+            "FBsirirat",
+            "FBปูน",
+            "ปั้น",
+            "ยีราฟ",
+            "นัด",
+            "มจพ",
+            "IGmjpukpikshop"
+          ],
+          "user_id": "100073513300572",
+          "username": "ปูนปั้นยีราฟ นัดรับ มจพ"
+        }
+      },
+      "12": {
+        "2022-12-26 02:28:20": {
+          "date_time": "2022-12-26T02:28:20",
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1316768345789255/",
+          "text": [
+            "รีวิวหอคาริสม่า",
+            "มอ",
+            "รูป",
+            "ราคา",
+            "สะดวก"
+          ],
+          "user_id": "1127922441268297",
+          "username": "KMUTNB Community"
+        },
+        "2022-12-27 14:27:01": {
+          "date_time": "2022-12-27T14:27:01",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=2533123096829304&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY9duMZ75bVtBXpryXdwiQEG5sd78WsOxHBQPY5BkZAYwEOfZU4kMjtCTUcAyvFle7XH4gdxVQS_KxGxLDEEByyNePY_2ovpKJ_XGIJOF0eEJ3-QHM2h0a6ir3R60FfC6ohSEstYF6gnbnk92S3dmx_XNy-P8w5sPkNammxlJ8GHH2BF1VrEvXJGhs2ix_td1txuOApgaiYlo1O0XDSLdeYLNl8ShahntgAyMHV4jMeuONNis7-1Ac_nAB7-AZ-HwNX4lG7n2yWGXYGecw2g_uYT2pGwFqe-TmqxZyfEdC4umohc2uOeiaBG6rs3Q4KO5nGVQwENAfJ-pIn4w3f6xpLwnUeZKCD7Lm3N5YzkyejFbkuUaT0CX_1twEtTnCU1IxZ7Y-_swhUjkx85_OcjCiz5SsotgHQc6HtXPRFoD21mB97Z9EAiE9BJ4qSAUGGTZD49GnP8E_0GXRuMOmYJCkVD1iKpvJsdinNafrW1Wk21mVV3sUQMlsA2IOxcddTAHM4IelJhvfr1CjdrIGjf6kIUYXpO_DC2X7reFk0gyg-Vr8E02ZP_kHFfOCQkc-O-tkMTXIk55yAUiHTC_jdOHBs0j2-p2jns5vxIsMEdPw09O6D3x62D6amEMPIhK39lo46qjpQNsCUg7FQOyuUGgJcAoBpx5ek5AzMubsme0tr2fyZCxn7e31QimDrJby2MCjleOpgzOBt3fszJ0uNUWrRmg4toUOo6O2XnpZRTr-9WCKAeHNzU_F1GwdHpFQgT_WivehXPmpNuIRueH4Q9AOT6zsr809EQJktIaN7qhZVfH0557GSkXgoSzy-xsaRql6nl0fIwy_1OrnGEgQRfvywpjwgBBFCB-XltbfkS0fC7caB9BlUZ1jflHogMf5tgLyOUb0s8MbHcAHsLXGtmxxqhh5iZZke7D0fylJVn5LIJQyr63xb0_WyJgW1lUb7_Zao1IubLwGQwiybTDSM5d4JnxywBmNZ4pXT7KbfPYae_vna2sMJeTLQxGsWHpGY9HDGl5VzEeJFsESQr4LjndfGXWFQp-r8RVF_aoLEiEsmIZl_LzsQupNXY0Rx35OOom3-yGTOHNzvCNlyusUKkBnBEmhuSEaxMetOa3TpuLYU&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1317763292356427/",
+          "text": [
+            "ทำ",
+            "หาย",
+            "ติดต่อ"
+          ],
+          "user_id": "100003949155020",
+          "username": "คิม หันต์"
+        }
+      },
+      "09": {
+        "2022-09-28 19:19:37": {
+          "date_time": "2022-09-28T19:19:37",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=2422790991221169&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2422791047887830&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2422791097887825&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2422791181221150&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2422791224554479&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2422791291221139&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2563874250446175&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2563874287112838&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1249955099137247/",
+          "text": [
+            "บ้าน",
+            "พี่ไกด์หญิงสิรินทร์ปาร์ค",
+            "สาม",
+            "ห้อง",
+            "ว่าง",
+            "ราคา",
+            "5000",
+            "ประกัน",
+            "2",
+            "เดือน",
+            "ล่วงหน้า",
+            "1",
+            "เดือน",
+            "ครัว",
+            "กลาง",
+            "เครื่อง",
+            "ซัก",
+            "ผ้า",
+            "เครื่อง",
+            "ทำ",
+            "น้ำ",
+            "อุ่น",
+            "เนต",
+            "ฟรี",
+            "สนใจ",
+            "ติดต่อ",
+            "สอบถาม",
+            "พี่หนิง",
+            "0825429956",
+            "ติดต่อ",
+            "inbox"
+          ],
+          "user_id": "100004708753660",
+          "username": "Ning Udanon"
+        }
+      }
+    },
+    "2023": {
+      "01": {
+        "2023-01-06 16:44:39": {
+          "date_time": "2023-01-06T16:44:39",
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1324627045003385/",
+          "text": [
+            "ย้าย",
+            "หอ",
+            "ปล่อย",
+            "แต่ง",
+            "ห้อง",
+            "คับ",
+            "เลยย",
+            "นัด",
+            "mrt",
+            "คับ"
+          ],
+          "user_id": "537409921616528",
+          "username": "KMUTNB Community"
+        },
+        "2023-01-08 12:10:09": {
+          "date_time": "2023-01-08T12:10:09",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=10229412436232716&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY8rJ2fYec0YQ1vH2fuC1Sgk9QpQNl_Hg4EciuUwGmcIf6XjqlwfQj0XYrvon6cbgKu_7hpw12jK8i6kj1X578TAt6f2frXrKspk59t9koKsRY2lfuPYOBfAsn4vcFYa_W9eSiL8u_4xOGSj3X_WZ9_eo60_OybKgZ32smYtClAK6VWLnRVt7ZVRjrwf_njM0UQ-rQH9xEt_V0rwmzS4J1T1PUDi59E-FYrDqiqAYh3aCReB91XW4YPi4wX2-2V_aVboYIkXAPdRHW2ALBIGKaipG5V13NJou0GHssB6cO9D0n6r5-4fy1Htn819FM-sfuNG0_d4pmHIHRrjxRJAlaxYNcmvYtU1bM2kamY9kj-EkJvz2ujrR8SVLT7L7IJICBKDhwjPCbUORHhpN5j5YgDL0f9ZCyut-95Mp5nzv5y_Kt70p-BpeZ7A4u7ZjfNU0JRZQIhDccdiCs1KYw1LUjGtHhEMY8mj7QF5dMJ7IvSjWx_uTAT-JqZQPhoJpNe4Fi0Dmyak6cZeKEF4YyVftSV1v4grbj9JiBaZcIGauXUrsjGH1U9HB7WQx4Qg6x-776z1UvPc09wqY7nPXoiWMGg6Bm5eoGkqwHmXCPoIMo3RlXywqojWZZR6wmt_J65juf-VA6s5Z8k_etg4f-1W0-l6fyKnNO8VeRV8-LdRjnqJ10Zxs-YCM0zphAy-nKI6nZZiuaqUawqMWzzh2QeM_GoAbti8UoBrerGxJdxtXPSYxCVtq7DUZper2uHMJNu36LzTNOll86shqKYfKM8tlnmH9xPG469DxMCdPsJUfhOwXQE8rj05W0aKLLhwHhtJgjrUt0iHImJqUXQTTFQczD8xZU8TyN19AUN8Tz7Ql06OwajxYvUN9U3BGU5ol0ezmZEx9FXWBXYgQkPKZY83jMJ1murrlJhFINkqzOg0ygCqtKTFiW-iMQmd8yLsaquXGO_JwbmHFFA-fDi5Mlq2xeFRiTUZiCoSwEzvaoaUMnCZU_jCijyoYz1PYGrmIcsltcEq04jmNVMwpw0bLW777GOfe-H07FkbSsmJ9INg3WiG-x4aXwA6UGSrrZcMfzgfFSSOhSmOd2izYMuFySILLDwD&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1325769558222467/",
+          "price": "พัน",
+          "text": [
+            "อนุญาต",
+            "แจ้ง",
+            "ข้อมูล",
+            "ป้าร้าน",
+            "กาแฟ",
+            "หน้า",
+            "ร้าน",
+            "ถ่าย",
+            "เอกสาร",
+            "เดิน",
+            "ประตู",
+            "ม",
+            "นิดเดียว",
+            "ฝาก",
+            "ลูกค้า",
+            "ท่าน",
+            "นึง",
+            "ซื้อ",
+            "โอน",
+            "เงิน",
+            "เงิน",
+            "6",
+            "พัน",
+            "บาท",
+            "เงิน",
+            "บัญชี",
+            "หาย",
+            "ปกติ",
+            "ลอง",
+            "สอบถาม",
+            "ป้า",
+            "ขอบคุณ"
+          ],
+          "user_id": 1153995908,
+          "username": "Jiraphan Inthiam"
+        },
+        "2023-01-08 12:39:09": {
+          "date_time": "2023-01-08T12:39:09",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=1602039683551486&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=1602039793551475&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=1602039813551473&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=1602039743551480&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=1602039776884810&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=1602039736884814&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=1602039840218137&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=1602039860218135&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1325780558221367/",
+          "price": "2090",
+          "text": [
+            "อนุญาต",
+            "ฝาก",
+            "ร้าน",
+            "เบเกอรี่",
+            "บอร์ด",
+            "เกม",
+            "ร้าน",
+            "NooM",
+            "bakery",
+            "x",
+            "BOARDY",
+            "boardgame",
+            "ร้าน",
+            "หอสตรี",
+            "บ้านสราญสุข",
+            "ร้าน",
+            "เขียว",
+            "เก่า",
+            "ร้าน",
+            "ขาย",
+            "เบเกอรี่",
+            "โฮมเมด",
+            "อบสด",
+            "เมนู",
+            "เค้ก",
+            "อนาคต",
+            "ขนม",
+            "ปัง",
+            "ขนม",
+            "หลากหลาย",
+            "ราคา",
+            "เลือก",
+            "ซื้อ",
+            "2090",
+            "บาท",
+            "บอร์ด",
+            "เกม",
+            "เลือก",
+            "เล่น",
+            "90",
+            "เกม",
+            "เล่น",
+            "เกม",
+            "คน",
+            "สอน",
+            "เล่น",
+            "น้า",
+            "บริการ",
+            "25",
+            "บาท",
+            "คน",
+            "ชั่วโมง",
+            "โปรโมชั่น",
+            "4",
+            "จ่าย",
+            "3",
+            "แวะเวียน",
+            "นั่ง",
+            "กิน",
+            "ขนม",
+            "เล่น",
+            "เกม",
+            "น้า",
+            "ร้าน",
+            "น้ำ",
+            "ขาย",
+            "น้ำ",
+            "ข้าว",
+            "ทาน",
+            "เพจ",
+            "ร้าน",
+            "ขนม",
+            "NooM",
+            "Homemade",
+            "Bakery",
+            "เพจ",
+            "ร้าน",
+            "บอร์ด",
+            "เกม",
+            "Boardgames",
+            "cafe"
+          ],
+          "user_id": "100012364087491",
+          "username": "Sasanut Charoenrath"
+        },
+        "2023-01-10 22:00:28": {
+          "date_time": "2023-01-10T22:00:28",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=887985775581141&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=887985792247806&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1327271891405567/",
+          "price": "29",
+          "text": [
+            "ร้าน",
+            "Happy",
+            "ice",
+            "cream",
+            "มอ",
+            "มจพ",
+            "โครงการ",
+            "วิน",
+            "มอไซร์",
+            "โปรโมชั่น",
+            "ตอน",
+            "ร้าน",
+            "ไอครีม",
+            "size",
+            "M",
+            "29",
+            "฿",
+            "ไอครีม",
+            "size",
+            "L",
+            "35",
+            "฿",
+            "ฟรีTopping",
+            "1",
+            "พิเศษ",
+            "topping",
+            "ชนิด",
+            "5",
+            "บาท",
+            "ตัก",
+            "ร้าน",
+            "M",
+            "1030",
+            "1900",
+            "T",
+            "1600",
+            "1900",
+            "W",
+            "10301900",
+            "Th",
+            "1030",
+            "1300",
+            "1600",
+            "1900",
+            "F",
+            "10301900",
+            "Linetunzzz"
+          ],
+          "user_id": "100031091801880",
+          "username": "Viraporn Suwannoi"
+        },
+        "2023-01-11 09:40:25": {
+          "date_time": "2023-01-11T09:40:25",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=1228758557998864&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY_KRoXetonUqfMM5JyDZF-0dwuh-1JRPRsLaXHJFFmg98rYwEd4eHO42wmwFkw12cEH2x4kHP8jIUJBN7UUUu5viJZgBLN54_h_qMAwuQKTlGnUsfqe6_WGWSLqxLmJeDnXo8kGAruM_c7BwiT_qwgRj6g4mUn3eIgQWB80G9Mtal9b_b9Tz01fWARryqM59l5n8K7BMXwCyeObg3CSpbFWY8rizc-3Zol2LA6C3nE6nGKL821JOLW8YVnyOmamkN6deRpHbpnc7Wr96j0AUhP5Fe7TMrzMBX7XFK-yfVRZIptIO50t4xnUSnjQfvcXot8nXTxcaqXL4MJV9Wj4DLToroEON1sgEa4ZUNolQfHLox5Su1pCH_go8QYsWDlWvuCRnP0tNwY2f046z2ADZUD_yYk_UF2ExjI6bJTnujqMgxf1mchAPXKky1e5ONSnuZMkUu86jIRCGfgU_el7Hwj5_xR0Mrik8PJ-BxP1mDuTIEYEaViUNl3qItbptybOqFaBPy4MVSWoj6RGkQogM3z1lrlBX5fBPgYxfNvUNC3nhS8rOm8-k6HMfSHs8lCwyk-8xc5Hc3r7mP7iboADFRJJOMXi4827D9X9fileZ0DL44bZImsd7EeXflcYXwbANeYkRAcpB77UR90T2RvvrtK-xxlI5ESd6oXvYGKI1XHc0wPf6msZvwZ83HXO7QQz4QfPTQFJ8PsQHjwQ7VLGf5kauk-Nxf0ivuGa_13URhZGuU2WMIS_7iCpwkJBYEeHfk7dsO8944rjWQKT2YDIZbr7PFTbtOL_HG5DlSyvfNAmt0zrloTuiYBwKrSN10ID73rEgF9RICiyVhjyToAJ2SsYXsYFfhlwl0igDoScnEHlZTpNFXBk0GAAHjWN4GQBqmFq9GkVoh7C71CoRNf69eHz5Dqw_Srl1iWeQfAAJ7kkVFmPz6tLjd9D8cUl6DOswSCBnv26cjTu4TlRB2TfpAWoFfz4C_KHZQM5skKY6eoVMafAaSe-jhN30b4KiHeqxI7qc9Lpan5T6romu1kl2LTcT9vg9CNPVFlsp1dxqZ7oRzyH1B7ya0clTrlE1xZI2Zj8DWnPVKKXeKj65JP5cECxymGAViN_LOnhOx-Jqow&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1327599098039513/",
+          "text": [
+            "ลืม",
+            "กุญแจ",
+            "ลาน",
+            "กาแฟ",
+            "หน้า",
+            "ตึก",
+            "62",
+            "ฝาก",
+            "ร้าน",
+            "กาแฟ",
+            "ค้า",
+            "บบ"
+          ],
+          "user_id": "100025941947580",
+          "username": "Khanisorn Paeksanthia"
+        },
+        "2023-01-11 21:13:22": {
+          "date_time": "2023-01-11T21:13:22",
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1327903131342443/",
+          "text": [
+            "ทำ",
+            "เงิน",
+            "หล่น",
+            "ไหม",
+            "จำนวน",
+            "นึง",
+            "หน้า",
+            "หอสมาทเพลส"
+          ],
+          "user_id": "100002146490977",
+          "username": "Thannatee Pat"
+        },
+        "2023-01-12 02:03:38": {
+          "date_time": "2023-01-12T02:03:38",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=5789917527761044&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY9nUQIQLvYfYlv82bbAD9vqPagj5G-pBK2fxetwpbIcllvgBrjk6__UkIct8B6K6HPKntNkScYokOObAfry_ya6sgPtY8jtFBh7DwzTMTG5iAd8DoDph7V8XVTspeEKaQHwL2BvisET64hVvWDj_DldZs90PwNQUB0RrAyzM-j8T39acdvgFIRy3-VaRgh92EzQsFPCLyqzPpS4T_fLdgNRe1QTDzTEKv8QwYw3LWdMY-BqTAGd8WKW1Vc6OYLFeKkLXb5sWYTS4MNmaE6nARDzz4Xb52V28pmBhIENq3hkZjmQqEpBbneMzrev1PaXd-dPsskdTdIFTcfN1fKxOu8gEYRLlNNDUmw_2rJst5Guk9ONS8aqM5DyWSVzXsqGL6WZpYqIL0cLDADiEI9Q9QZXERs-WJTphM9Yd0Peg4WacJEmuAduQj_mkCAEQza2cUQUw2p8j9aLJMIQTWflTLqWZkBxcYz-uPHq90dIaT5j66y07ot6gimMSmjmc-1KAubUR9m5tf4_5dqBH4DUHT3fQJsYXEbRUxMzUgL-_gBhT1YhT3FF5k0XOq8qCfKLSGh-plIJvyFUMIBnMJc1_8WcisyhNI57BJ1jpRcXQ5qxdovUPDr1gNmHqndBHDLUkqqcHdMfEFmX46y3QpPWbsDdfRh4hrZO9hvfsv_FPd7ZTZopnz6ASHiuoQxGz4Aoy5lffMAsE51wAuhcQsQm8L-Z_qLvqCU6Au18mknKO6Kl0UAJ8oZN2RYlLUJewV9gakaf-5vm0gdk-dIcroBilgVAaWiGrciAwM5fV19VWv-86vdX5IIGDqlE6Kk56wQExl3QGDP3tEys_QLuPsUYNbgY4RAi41OOY-LAVfTI607u4mxuDKBkofOU81q2IGYvPZJ7oV6L8paswtU_Mx6O510eSBnNBjjyeE_wIs3gawA1U5kSv_ctsG4u136g7dVWRKMoe93_qBziUkYpQM_VokcwjAE5-lSeC1q683XWjZN7ec9eJpcE-4ef_dla3ZPmVZLUePr_osd0KbinGxRVYC371WEWsjO1YFrzX5lt5EU6MX22VR33Lno3Uj0gH4Ws2yZQZwr3Lltxxup7bKCIN1UfuM197qkJfCgvK5IlSD4&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1328049451327811/",
+          "text": [
+            "บัตร",
+            "ประขา",
+            "ชน",
+            "หาย",
+            "ร้าน",
+            "ต้น",
+            "เอกโทร",
+            "0847348218"
+          ],
+          "user_id": "100002285620980",
+          "username": "ชาญยุทธ คล้ายคลึง"
+        },
+        "2023-01-14 09:14:09": {
+          "date_time": "2023-01-14T09:14:09",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=10225808903668455&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY9U9R3CO9FjSO38n7MbgXY5kCPggT33oLKD2M8rsWLM5manTt66u9phjyMe__F_biUI4JbB-b_lTj-CCFvudNYaS2OvXRLqyUXYt5GIaY72EEAyHQEKLEKQPjiHl-vsupDsEKKpZDk4kMNtOE4wUUTbsSTBXb2juiKV-Hv-BAhaqHWgIMCSJJMuin2QMfffLtfyNrekuOYLZ6RD987E0QnrR0mMF6JR9MsQv85VTYbYIBw73Cr7NTfwYcqPeyQaMmO5NSQmgIytwPMFDQSwCjMBTbwlgvuEJWmYFcdNNgJbZu67cPNFi5NHDv1HhG-rt-mQ9XthTPIbQnydcuS8HkAfKJq1f5DZrCEl_2MmxGZ3dx_3IrjIagPJUpNCPaPFU0gILU_UmUT8mjViA53CAvwpQoFJTDWrn3DsIF2xpZtKc_qmsk8PcPbIKzsHyHUYhySeZOEb0U74ohAKm_rf2dECcgtxogZ1Y_C-87Y7RDuJZWSveMjbVPyFGGn-qNXO-LymMc5TFuJZeiwcivVqsXB1XPdfUPGI568yV6mMQxtR1TLfePSbPBD7aAsr8t6nluG70ZjIpKXqTyiQHUE0YZF1VzO8yJplVyu0LFa4Z_pXqytPk4Hlw00fiJjZ6HbTIHL676272swr_1WDtdysb63RQQGujqNpkp1m_POEa9PCjkJ-B8VwGnCs0z5zm-2l8KtS__jptA4nuzA-_Xoc-bb6WjNT1dXBQHZn0pYOuq2E473XRCDsuTaOfSy8WGLZmJ516Bmxe9DMrp7fMqN2TItbxEhODEB8Clk1eGnVx8V6xo7CLcdwAwp5cAPNCW9feH-JK8tkl6Z3cv5x3LLKYu3XJ3Xzx9umJMOf-nvpGEJSEgIWHEIzTaJDAwUcCsOe6Zn5wM5k-NaD-PozgXTh_hlbQiuKp90Xo20dP87xb7JstiNB5D-55NL2ZYd2jNhmnrhK8HCRuF-7n9GkosUmjAvIw2mQw3Wkle2R7-JMooiESSQvxKXTmb9GxSyPS_0ZPEZRWylcelyPecmxEJOkbhhoEiHXU547PxQLD9pIKvQ_CIw9otYL8tY0juTRfj7QjGrXCSZAxeH89hcK4w2B09mBWX3ZDCiGYd9JcVuSaTtWrCiEuKRqe1tUxcGAySICiDa1Iz4A8DBeUIVWym5Nfhj2zb_byaCDtpILJjlcV4XXf9njkVyeg_FTWJrDgQAwBEX0zihY1lBRw6jZh6PFbI6xml8itzZFR6Ddxf0rT0nRFBQIhiq5asOePRnEHrLxf8pL6XMzKs7aaQeeJAaxqrxGk-El2FRhQoZ97TuPBC92cui7sC6yq5UPwoJXs5N65RNyJ0FzdltdEATRTcU&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1329570271175729/",
+          "text": [
+            "น้อง",
+            "ศึกษา",
+            "คน",
+            "ทำ",
+            "บัตร",
+            "ขับขี่",
+            "หล่น",
+            "นั่ง",
+            "วิน",
+            "มอเตอร์ไซด์",
+            "ร้าน",
+            "เรือน",
+            "ชอุ่ม",
+            "Slow",
+            "Bar",
+            "Coffee",
+            "รบกวน",
+            "คน",
+            "รู้จัก",
+            "ติดต่อ",
+            "น้องที",
+            "ติดต่อ"
+          ],
+          "user_id": 1208026560,
+          "username": "Prapan Chompoonuch"
+        },
+        "2023-01-17 18:02:18": {
+          "date_time": "2023-01-17T18:02:18",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=5912578958818122&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=5912579055484779&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1331729257626497/",
+          "text": [
+            "ท่าน",
+            "ใด",
+            "ลืม",
+            "กุญแจ",
+            "รถ",
+            "ลาน",
+            "มะเร็ง",
+            "วทอ",
+            "ติดต่อ",
+            "ป้อม",
+            "ยาม",
+            "หน้า",
+            "ตึก",
+            "สถาปัตย์"
+          ],
+          "user_id": "100001982306458",
+          "username": "Nuchanon Nualsri"
+        },
+        "2023-01-18 16:36:26": {
+          "date_time": "2023-01-18T16:36:26",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=2786504098151945&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY8mlT5CrAKbWakOhYG3kT-CzcGIlBwzest10p2TUMmXJX4ynYWKYSe-hiCJTwhYDQWxh0s0t6l4AfEp1JPvOIgdix6FpbSV3Rb0j_uFu0zr8DVaQ3vzqHOthYMgh8cchzN0w-wCyVKxW85AQQPoPVYvPkChFgvHe_O9uU9YM7PHB85bMVCkdMZKCSiQu_I3dVfbwhBIanFM7XGw3wztUH-Jfx2EmEMeY7n0GZcpMWHcgCR5RicDjUBye9tLecWTWX94QcPIuB93a2faiIztmngXdXtWYLytxQ0oyZtByGTKla92DDF9Kokttd_LyrUzk972N-AhFyNL8GMJgAy7Ji9CFO6h9NjZiZkzpmvj-_r-jR4sTdraDkXAYC-RPvUW6vWngLK8gTwbCyegcms-CtKkUlWtASWaugDUDUrObQjv1_x4lGG0hKYenlVujFoWRDPBPACmMeweACirE-8b1AQPoBgHHPbf5SfYQ5imTVLeeK8UQQF98z-EDBlsMkI19SE54xt993qchSLNsUTRvQHCxARp38Oi3ik6x1du5dJWDFEhebu66ArN-2UgtzSx628mvnKOz5uX0Bibx1LxACUeVkUOuoUJW72sVZSGQu4iercNu28yxX1186zAycZkBjEXb8JewC-SfcghuxlBM5_lBiQjrksrkZjfrIRKVHuTthdU3V7wmjNcB5a50VWQwltvlx4T1DQ7_0Pk7Y3ufwaTMQiBYJ9iGbJbLuov7EBpm-wKGla6HMOxSqLjW87CRjl-4KjiAcSoQHKfCLkKGyt0mrOayjV9XF8Enrn9UrDykBJvoIzsJ8SA83Svd6hvQQw7MX8an6wupKhpSLqyhpwfwsfjwG-0YjygMynLtWwO_MOPmsYOr2wGHNqLGLwG6vlO9mNPGYACq3t6gsLEuYTezaGlxq6gJwXCDNu2aCREyfQEgkO9ZP_oVCUa9ucljM20YY_PzlL4rh2mqzUVUwngN8U1N7KmQOufqPEgbiQr-_LMNns4LUpRi8qmuv4FMRIeWRg48umEhmI3drgjFYym6xWSqoqjPtJcWSUr68t_Y3_-RwjR28mBWNp1bqFjZvvVNcEW8u65s_KI_SAfGjVt2TTgl91LmdvP1kcBUzY&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1332330250899731/",
+          "text": [
+            "Resume",
+            "ตัว",
+            "Super",
+            "Resume",
+            "เตรียม",
+            "Resume",
+            "งาน",
+            "ENG",
+            "KMUTNB",
+            "Super",
+            "HiTech",
+            "Job",
+            "fair",
+            "2023",
+            "คน",
+            "พลาด",
+            "โอกาส",
+            "สมัคร",
+            "งาน",
+            "โอกาส",
+            "สัมภาษณ์",
+            "งาน",
+            "JOBFAIR",
+            "ENG",
+            "KMUTNB",
+            "2023",
+            "เตรียม",
+            "Super",
+            "Resume",
+            "พลาด",
+            "งาน",
+            "ดี",
+            "งาน",
+            "ปัง",
+            "Job",
+            "Fair",
+            "ENG",
+            "KMUTNB",
+            "2023",
+            "19",
+            "20",
+            "JAN",
+            "2023",
+            "เวลา",
+            "900",
+            "1600",
+            "น",
+            "ตึก",
+            "อาคาร",
+            "81",
+            "คณะวิศวกรรมศาสตร์",
+            "มหาวิทยาลัยพระจอมเกล้าพระนครเหนือ",
+            "กด",
+            "สมัคร",
+            "คน",
+            "น",
+            "สมัคร",
+            "Super",
+            "Resume",
+            "คลิก",
+            "คณะ",
+            "เจอ",
+            "Job",
+            "Fair",
+            "น้า"
+          ],
+          "user_id": "100003771467876",
+          "username": "Sutthi Bay"
+        },
+        "2023-01-22 16:03:09": {
+          "date_time": "2023-01-22T16:03:09",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=3386415221617617&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY8voJSaQzrmVvtxbc7ik2HSpJg2gHNuAMF0Pi_u341V97NemBYZaVzANVec4x6RRrZQyudurbeaXL4AdrV4IE2KoD4SwFuMUh8oLbEDIoXR0L7Gw4yc2zYmb10Ryo3l7nymu-EsplDCeUX1xXdTTZmI9Mp5JWLnD-xh-U-Z59xwhiEMK_N250NEtj6PeqJbIFNp9BxJ73aR7sE5zNsRJsYTs6CklSCyw1O25gkgpAO2IasD69UfhiqR2qAMZRKzguq2GoGbdyvd_CokA4tiGXsapFggGMfeOGRdoi3_doAy-\\-\\JAgXEo3S3QcBPRnLNlLGHkCVKTv2kyNcONrnilcIDY_TiIZa1dD0HLcVE_E6pC9HO_gpqMOZ48xOCuXXEEJuQzsVi4V1wYiTghqWKMp630e9gyOxbr6blz_-Hxa8XHQObzM7fjeUZ7nc_jMfHYbhxTv49DE1fCvom6tY3t5pPsV60mtKtRCHlZgBPbkIu7G-q2yGbuaNyTn47Upcf4YiEW3IKvcqOtfcjyWiY0GQdkDcNqzihYS5Yzr4FE_6EkU4xYcBufnsGoJA5Cx6ctwcjmgI62BHezuHz16s3ihZ0IAh9XGVZZCFAFJVJ2MvCker4hDwOPNmpYQf6PbipSmG2TWG3RhJOPDCZ0oE4_9WesZbVEBdjSlHanksr4btDEJ3yW2SPt_9jdVpRVyKvKmxqyoJisEb7hmMKnxWOqfnT-k7cIzl5DViEIfFJzP0Nko9bnL9lpCBFD5sk_qdtmKfqyaptVb8G2BFBEvuYnvOvbtVMfDKGJOer_RLcA5baqIXwejjV5KSTtF-YGF4W-VJndvbMv3GBsBTzKggh4A5J-9Bp1ejx7ApiXtdkWW0z5mkB5KhK8Vlycds5RNZIbJZNoCRE10MM-U66KdieBIvU_ksyHgizNruK7jeyo6Xyj6m02rChwVlAN41kF3p4CVbrbT3GbILX5x2L8kZ9LJd4j-y2Tk2Bti-cK-Tqevx_xuUdR_KBu1d1_0sXTWFO6f1CiTg0359cE1fak5gugPMbcc8sPfrtZ6wvDSSUkd3Y22tE29WhuvQ69jvrYVhcVX5nYlyICBZY00Wru-RWulNWqApLNSz0gLsxMA2bh0i8&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1334857963980293/",
+          "text": [
+            "ทำ",
+            "เงิน",
+            "หล่น",
+            "ถนน",
+            "หน้า",
+            "The",
+            "CORNER",
+            "ตรงข้าม",
+            "Grove",
+            "Residents",
+            "ติดต่อ"
+          ],
+          "user_id": "100007475162440",
+          "username": "Bam Parichat"
+        },
+        "2023-01-23 12:21:46": {
+          "date_time": "2023-01-23T12:21:46",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=1241719373047728&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY9mb7j-ojaU3gg_sfv6lLAli7Z1KUEUUsX0CaM6f0_wdCw9oU4ZS8TMPp9vuYEvJd406EwYlBLenjO3MPbtG1RP0GSP0xfjTezeY5tRKb142EWLscx3YCQpisnv2RagJigFf-1mo1eXop68DDZIS6ZoNomAsXzY9Gicaz3K2bRzz-0DyRoLor7rBd_9i2_9Wsjv1ZzRwBU6I4VvaiMkp5edSzlQuQqvElHNMFwwWiTYcEQbJU5KoqfIxXiTaNGDeiFSQe9FNbu0g8etYGZmboz87v6Z_u3AafIyJ-Lb2P6w7DQjn7GZY7aAfopZ26HWaE00AFbEcx-BvtSrDBe9GPVCWh6-SZWNGEr6QoJx002DL1iNFsCK31WAsS8u-h4twiMmJ5i7xzs2WC9KlLmT76NjMiwYeJAuXkags_MkXQ0awOm7SeYeXDFPu1d5y3VAo8BOrzHHeUp_orZX3UhIwhJcI3AbNhFxQThRVWMNQim8izphIDyDFbE6OVLRo6xpO7vQvyj5pEZl9S_6r1NuAj3tW-lrjrSQ4pNsH-dRHNBXz_VpURGzb2Q8VRiraD3TqKtsoZOmoIj6z6Vhj6qad8U7QIdMe8mjaOdRkfghiUWyriH7_HZEOQIcPKXcoXivdcGC-Dtp-TFoLWLTgvP9YV43qz8xujYLaj0LqSkiVXYspCK72DkaNraZ5rmvuDhkKcG_BCTrccJInKw9hooysKA1EurxHPw3FV5eFJHSyQWgF5geAUnlcQ1XIz171zk_xa525gORgw_0328-ZnVGe9bFls1H_MQ9v0rOePVRLOry6auQqS_2qraAZ7vg9U9GD1LBGhcy2EwRyoXw0MC186ryVkT7j6Eoyd3vPplJ8OQrvJVASrbxtH6xaR8PllFaCHUmDl3xFu0G7NJMWiA_BompDKcPQ0OQlq5v2uDwznemo11Pqwuv_CF2_HKtdR3F4aubB35OlNWoSQNY8tbLk56L0fPx3DJwF3hdCIQ8vy6NQMPT_xUw245uCngHZ3Qu5Up4yr_3a1iRyB1XOrMImGP51J6QNLpHUhC5KQwpWowZcVsdxzjAQGlOOXRtskstLQVVFnWx0Rl9SychwWIT0ITwtJhuz4zt36g5leqDWHI&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1335404397258983/",
+          "text": [
+            "ทำ",
+            "หล่น",
+            "แถว",
+            "สะพาน",
+            "เขียว",
+            "ร้าน",
+            "ถ่าย",
+            "เอกสาร",
+            "ริม",
+            "น้ำ"
+          ],
+          "user_id": "100016290314896",
+          "username": "Nanthapat Pacchimanond"
+        },
+        "2023-01-23 14:15:46": {
+          "date_time": "2023-01-23T14:15:46",
+          "image": [
+            "https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/323425749_1478279449366374_2878650176120412510_n.jpg?stp=cp1_dst-jpg_e15_fr_q65&_nc_cat=110&ccb=1-7&_nc_sid=5bac3a&_nc_ohc=iOMJNhvvO0YAX98MuP8&_nc_ht=scontent.fbkk29-4.fna&oh=00_AfD-AtfB6BEJMQT6LqhpEbLMnnz04o9pt5zu-8dMMuaToA&oe=63D409A6",
+            "https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/324337462_640437487836113_6650940388425843706_n.jpg?stp=cp1_dst-jpg_e15_fr_q65&_nc_cat=111&ccb=1-7&_nc_sid=5bac3a&_nc_ohc=8JBrul-A5hMAX9vd0M1&_nc_ht=scontent.fbkk29-4.fna&oh=00_AfDXsomjqQC570ePVAjr0_mHMqaVGJKxblKhtiJUvxG4uQ&oe=63D55DB8"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1335449137254509/",
+          "text": [
+            "ทำ",
+            "คีย์การ์ด",
+            "ตก",
+            "ร้าน",
+            "เจ๊ปุ๊ก",
+            "ตรงข้าม",
+            "หอโกรฟ",
+            "ติดต่อ",
+            "ร้าน",
+            "คับ"
+          ],
+          "user_id": "692672729049036",
+          "username": "KMUTNB Community"
+        },
+        "2023-01-24 15:20:19": {
+          "date_time": "2023-01-24T15:20:19",
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1336085510524205/",
+          "price": "10000",
+          "text": [
+            "หา",
+            "บ้าน",
+            "พัก",
+            "ม",
+            "จพ",
+            "10000",
+            "บาท",
+            "พัก",
+            "3",
+            "คน"
+          ],
+          "user_id": "100002545259031",
+          "username": "Pasinee Jaiboon"
+        },
+        "2023-01-24 19:59:06": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-01-24T19:59:06",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1336211420511614/",
+          "price": "-",
+          "text": [
+            "หา",
+            "ตู้",
+            "เย็น",
+            "มือ",
+            "สอง"
+          ],
+          "user_id": "100049417247182",
+          "username": "บีม บีม"
+        },
+        "2023-01-25 23:17:00": {
+          "category": [
+            "stuff",
+            "education",
+            "apartment_condo"
+          ],
+          "date_time": "2023-01-25T23:17:00",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=10222363129962222&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=10222363130002223&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=10222363130442234&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=10222363130482235&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=10222363130962247&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=10222363130922246&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1336981170434639/",
+          "price": "5500",
+          "text": [
+            "ห้อง",
+            "ผม",
+            "ฝาก",
+            "แชร์",
+            "ประกาศ",
+            "เช่า",
+            "คอนโด",
+            "Majestic",
+            "Tower",
+            "ซอยวัดกำแพง",
+            "ห้อง",
+            "ขนาด",
+            "31",
+            "ตาราง",
+            "เมตร",
+            "ชั้น",
+            "12",
+            "วิว",
+            "สวย",
+            "สิทธ์",
+            "จอด",
+            "รถ",
+            "ยนต์",
+            "1",
+            "คัน",
+            "คอนโด",
+            "สถานี",
+            "รถ",
+            "ไฟฟ้า",
+            "แยกติวานนท์",
+            "5",
+            "นาที",
+            "คอนโด",
+            "มพระจอมเกล้าพระนครเหนือ",
+            "เฟอร์นิเจอร์",
+            "เครื่อง",
+            "ไฟฟ้า",
+            "เตียง",
+            "นอน",
+            "โซฟา",
+            "ทีวี",
+            "ตู้",
+            "เย็น",
+            "ไมโครเวฟ",
+            "เครื่อง",
+            "ทำ",
+            "น้ำ",
+            "อุ่น",
+            "เตียง",
+            "นอน",
+            "โต๊ะ",
+            "กิน",
+            "ข้าว",
+            "โต๊ะ",
+            "อ่าน",
+            "หนังสือ",
+            "ตู้",
+            "รองเท้า",
+            "ตู้",
+            "เสื้อผ้า",
+            "โต๊ะ",
+            "เครื่อง",
+            "แป้ง",
+            "อำนวย",
+            "สะดวก",
+            "สระ",
+            "ว่ายน้ำ",
+            "รปภ",
+            "กล้อง",
+            "วงจรปิด",
+            "24",
+            "ชั่วโมง",
+            "ร้าน",
+            "ค้า",
+            "ร้าน",
+            "อาหาร",
+            "ร้าน",
+            "ซักรีด",
+            "จอด",
+            "รถ",
+            "ยนต์",
+            "มอเตอร์ไซค์",
+            "ราคา",
+            "5500",
+            "บาท",
+            "เดือน",
+            "สัญญา",
+            "2",
+            "ปี",
+            "สนใจ",
+            "ติดต่อ",
+            "0853532850",
+            "เอิร์ท",
+            "Line",
+            "id",
+            "donaldearth",
+            "ผม",
+            "เจ้าของ",
+            "ห้อง",
+            "ดูแล",
+            "ดี",
+            "นายหน้า"
+          ],
+          "user_id": 1086698072,
+          "username": "Kittisak Deeging"
+        },
+        "2023-01-26 12:52:34": {
+          "date_time": "2023-01-26T12:52:34",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=5819918708096509&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=5819918728096507&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=5819920171429696&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1337346390398117/",
+          "text": [
+            "ทำ",
+            "เงิน",
+            "หล่น",
+            "จอด",
+            "รถ",
+            "แถว",
+            "ตึก",
+            "วิศวะ",
+            "ทัก",
+            "จำนวน",
+            "เงิน",
+            "เวลา",
+            "7",
+            "บริจาค"
+          ],
+          "user_id": "100002353135786",
+          "username": "Siriyakorn Wongniwatkajorn"
+        },
+        "2023-01-26 15:10:08": {
+          "date_time": "2023-01-26T15:10:08",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=3418317845117046&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY9B2vklA8l5RQ5lqCf5zLBvrrQre_JWnjGdoO0nFlByGT-2d-aaaJ0oFHN2Hj-jZccUp2iAR1aV0hODtUINc7FrMnIK6nt8mVQXpHJrFmkPxtOK2DMjR01XuoiFsZkoqr-MERRLJNhfdN0upIO6uUvYEuyq9rzjPUCXOYZsC-hEdR3zpTIvVZ-RIs0pVUNaM-OzMX2fFzLKjw5eMGvSDKT-Ivg-sK3DdviC_Mh09dWyQOCfF5M3UANOhQB1fvYthsNVomtw20QC7G629RVFh3jQwh0Fu01eu19rJE_vQcw10m5fl6fda7U42jkDCHPmo-tbv99L5j5YTu4_l92gJFI6FdAInst1rSkajdzlTmSEE3TZrvcGcEOCvw5RF5yqagWEFHoWCrAEGU649MaQGjsPocyR4M5arJN35vtPaQquv4pXrxVmX1cPsJAlTnK82NeLVuEzYtkfRLMf5fLU44MZWoD4Wi8ZeRpikqAgPQxutQ2OCMqZ4AI-XJ3TVE1DIINNQ6dHfMrQ9MY7YxctN4glPK2tqDaXKji0IIl4sUhiq4FI3hKa_ksbQzR5xuLfBY3NIWpjsr9ueOdEXjGVGiHwaI6UT6emzveBTukHL4butgIzCdhGMNx31FjLVGgDAyTAvLMUc-TNpC6Sav3qp-WpnyrvyunojKAG6P7Tc3xyvJToGSH83iwMQHL06616BI4frYUdwPgs-dvOgVtmlVUrWxtCQ65FcqSqPga67THPOmXbrQzfr_PuTCD8RJDcdqiaZskMkvwetZQ5YUl8tshNTdTitp2KzQKv2POWbO1_04fSgGGzs71dNaTt-J0g12W3QpqwDN5ND46WuKsnS6LVDROWYDLUbpurTO6ee75Dz3whx5JdJs7j3ifMnUjYCO4-xbq7ygYHwQHoNz3A79ycgYRwMWR_H2KY2r_xD8ypQ3J9yCyPJDkAdOFq3HKH4vyzDDWlDTKG_4fvTudEhzfECXgKw1O50h354-K8cCP71kExRqnYeYsBtQ6qh0VujanAOtk3oGeBz4g37uRd5RDBnE6CqVp-1oLbX-iRnKMPnlgKDafsdxv1d3he6fU7yHNbcUsLRj6Ye_VK0OohTuzAB-jo0hV27-ShFsUZqCA&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1337403437059079/",
+          "text": [
+            "ลืม",
+            "ห้อง",
+            "พยาบาล",
+            "ตึก",
+            "40"
+          ],
+          "user_id": "100008165922332",
+          "username": "Natthanon Srithuen"
+        },
+        "2023-01-26 15:50:38": {
+          "date_time": "2023-01-26T15:50:38",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=5886474511444268&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=5886474508110935&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=5886474631444256&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1337420670390689/",
+          "text": [
+            "คน",
+            "ลืม",
+            "Airpod",
+            "หน้า",
+            "ห้อง",
+            "สมุด",
+            "ผม",
+            "ฝาก",
+            "พี่",
+            "ประชาสัมพันธ์"
+          ],
+          "user_id": "100002453312783",
+          "username": "Veerakarn Nimsakol"
+        },
+        "2023-01-31 20:36:02": {
+          "category": [
+            "stuff",
+            "apartment_condo",
+            "education"
+          ],
+          "date_time": "2023-01-31T20:36:02",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "มอ"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1340857276713695/",
+          "price": "-",
+          "text": [
+            "หา",
+            "หอ",
+            "แถว",
+            "มอ",
+            "ใกล้เคียง",
+            "หอ",
+            "เฟอร์นิเจอร์",
+            "แอร์",
+            "โต๊ะ",
+            "หนังสือ",
+            "ตู้",
+            "เย็น",
+            "ระเบียง"
+          ],
+          "user_id": "441442781131969",
+          "username": "KMUTNB Community"
+        }
+      },
+      "02": {
+        "2023-02-17 18:28:40": {
+          "category": [
+            "apartment_condo"
+          ],
+          "date_time": "2023-02-17T18:28:40",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1352168845582538/",
+          "price": "-",
+          "text": [
+            "หา",
+            "หอ",
+            "2",
+            "ห้อง",
+            "2500",
+            "4000",
+            "กลาง",
+            "เดือน",
+            "พฤษภาคม",
+            "มิถุนายน"
+          ],
+          "user_id": "100013701724535",
+          "username": "Psych ʚĭɞ"
+        },
+        "2023-02-25 17:27:39": {
+          "date_time": "2023-02-25T17:27:39",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=862256701531151&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=862256724864482&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=862256748197813&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=862256768197811&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=862256801531141&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=862256831531138&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=862256861531135&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=862256884864466&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1357415981724491/",
+          "text": [
+            "วิว",
+            "ห้อง",
+            "ขนาด",
+            "26",
+            "ตรม",
+            "ตึก",
+            "Bชั้น",
+            "15",
+            "6500",
+            "เดือน",
+            "ประกัน",
+            "2",
+            "ล่วงหน้า",
+            "1",
+            "สัญญา",
+            "1",
+            "ปี",
+            "เฟอร์นิเจอรครบ",
+            "ทีวี",
+            "ตู้",
+            "เย็น",
+            "ไมโครเวฟ",
+            "แอร์",
+            "2",
+            "เครื่อง",
+            "ห้อง",
+            "นอน",
+            "ห้อง",
+            "นั่ง",
+            "เล่น",
+            "เครื่อง",
+            "ทำ",
+            "น้ำ",
+            "อุ่น",
+            "โซฟา",
+            "เตียง",
+            "นอน",
+            "ตู้",
+            "เสื้อผ้า",
+            "สระ",
+            "ว่าย",
+            "น้ำ",
+            "ฟิตเนต",
+            "big",
+            "C",
+            "1",
+            "km",
+            "กระทรวงสาธารณสุข",
+            "มเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+            "MRT",
+            "สาย",
+            "สี",
+            "ม่วง",
+            "13",
+            "km",
+            "สนใจ",
+            "ติดต่อ",
+            "นัด",
+            "ชม",
+            "ห้อง",
+            "contact",
+            "us",
+            "view",
+            "units",
+            "Phone",
+            "0811652334",
+            "Line",
+            "ID",
+            "nui",
+            "56789"
+          ],
+          "user_id": "100032404860330",
+          "username": "Chawakon Nui"
+        },
+        "2023-02-26 15:57:47": {
+          "category": [
+            "apartment_condo",
+            "stuff"
+          ],
+          "date_time": "2023-02-26T15:57:47",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1357980705001352/",
+          "text": [
+            "หา",
+            "หอ",
+            "ห้อง",
+            "พัดลม",
+            "ราคา",
+            "20003000"
+          ],
+          "user_id": "2213611095489884",
+          "username": "KMUTNB Community"
+        },
+        "2023-02-27 11:39:20": {
+          "category": [
+            "card_ticket"
+          ],
+          "date_time": "2023-02-27T11:39:20",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=6023544771059674&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=qid.-4621139272472933426%3Amf_story_key.1358467388286017%3Atop_level_post_id.1358467388286017%3Atl_objid.1358467388286017%3Acontent_owner_id_new.100002126313177%3Apage_id.197822284350539%3Asrc.22%3Aphoto_id.6023544771059674%3Astory_location.6%3Astory_attachment_style.photo%3Afilter.GroupStoriesByActivityEntQuery%3Aott.ottAX_6SF89ZOXpoEKx%3Asty.308%3Aent_attachement_type.MediaAttachment%3Apage_insights.%7B%22197822284350539%22%3A%7B%22page_id%22%3A197822284350539%2C%22page_id_type%22%3A%22group%22%2C%22actor_id%22%3A100002126313177%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntGroupMallPostCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A657%2C%22publish_time%22%3A1677472760%2C%22story_name%22%3A%22EntGroupMallPostCreationStory%22%2C%22story_fbid%22%3A%5B1358467388286017%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A6%7D%7D%3Aactrs.100002126313177%3Atds_flgs.3%3Aftmd_400706.111111l&__tn__=%2Cg"
+          ],
+          "place": [
+            "มอ"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1358467388286017/",
+          "text": [
+            "บัตร",
+            "ประชาชน",
+            "หล่น",
+            "หาย",
+            "ร้าน",
+            "ข้าว",
+            "ไก๊",
+            "มอ"
+          ],
+          "user_id": "100002126313177",
+          "username": "I'mBank Narawit"
+        },
+        "2023-02-27 12:05:07": {
+          "category": [
+            "apartment_condo"
+          ],
+          "date_time": "2023-02-27T12:05:07",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=6553302621363775&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=6553302674697103&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=6553302791363758&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "place": [
+            "บ้าน",
+            "มอ"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1358477481618341/",
+          "price": "27000",
+          "text": [
+            "ปล่อย",
+            "เช่า",
+            "บ้าน",
+            "ทาวเฮ้า",
+            "มอ",
+            "3",
+            "ชั้น",
+            "13500",
+            "เดือน",
+            "หาร",
+            "คุ้ม",
+            "3",
+            "ห้อง",
+            "นอน",
+            "2",
+            "ห้องน้ำ",
+            "แอร์",
+            "ห้อง",
+            "น้ำ",
+            "ไฟ",
+            "บ้าน",
+            "ปรับปรุง",
+            "เช่า",
+            "15",
+            "มีนา",
+            "ดู",
+            "บ้าน",
+            "3",
+            "มีนา",
+            "1",
+            "รถ",
+            "จอด",
+            "1",
+            "คัน",
+            "บ้าน",
+            "2",
+            "ประจำ",
+            "6",
+            "คน",
+            "3",
+            "ห้าม",
+            "งาน",
+            "ปาร์ตี้",
+            "รื่นเริง",
+            "กิจกรรม",
+            "เสียง",
+            "รบกวน",
+            "เพื่อนบ้าน",
+            "ทำ",
+            "สัญญา",
+            "กรณี",
+            "พอใจ",
+            "บ้าน",
+            "เช่า",
+            "สัญญา",
+            "เช่า",
+            "2",
+            "เดือน",
+            "2",
+            "เช่า",
+            "กรณี",
+            "เดือน",
+            "จ่าย",
+            "เช่า",
+            "เดือน",
+            "สอง",
+            "ประกัน",
+            "น้ำ",
+            "ไฟ",
+            "กรณี",
+            "ค้าง",
+            "จ่าย",
+            "เคลียร์",
+            "จบ",
+            "คืน",
+            "จ่าย",
+            "27000",
+            "บาท",
+            "จ่าย",
+            "เช่า",
+            "เดือน",
+            "1",
+            "เดือน"
+          ],
+          "user_id": "100000523062068",
+          "username": "นิตินัย สินเจริญ"
+        },
+        "2023-02-27 16:29:25": {
+          "date_time": "2023-02-27T16:29:25",
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=5895619710544924&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=5895619830544912&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1358572244942198/",
+          "price": "2700",
+          "text": [
+            "โต๊ะดราฟ",
+            "ยี่ห้อ",
+            "mastex",
+            "ขนาด",
+            "A",
+            "0",
+            "ไฟ",
+            "ติด",
+            "ไม้",
+            "ทีสไลด์",
+            "ราคา",
+            "2700",
+            "บาท",
+            "แถว",
+            "พระจอมเกล้าพระนครเหนือ",
+            "ซอยวัดกำแพง",
+            "สนใจ",
+            "inbox",
+            "ดู",
+            "รูป"
+          ],
+          "user_id": "100002908616803",
+          "username": "ฉัน มีตัง"
+        },
+        "2023-02-27 18:28:20": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-02-27T18:28:20",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=2631354363671748&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=qid.-4621139272396166130%3Amf_story_key.1358632174936205%3Atop_level_post_id.1358632174936205%3Atl_objid.1358632174936205%3Acontent_owner_id_new.100003916303642%3Apage_id.197822284350539%3Asrc.22%3Aphoto_id.2631354363671748%3Astory_location.6%3Astory_attachment_style.photo%3Afilter.GroupStoriesByActivityEntQuery%3Aott.ottAX9baGnVT1FcGoGL%3Asty.372%3Aent_attachement_type.MediaAttachment%3Apage_insights.%7B%22197822284350539%22%3A%7B%22page_id%22%3A197822284350539%2C%22page_id_type%22%3A%22group%22%2C%22actor_id%22%3A100003916303642%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntGroupMallPostCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A657%2C%22publish_time%22%3A1677497300%2C%22story_name%22%3A%22EntGroupMallPostCreationStory%22%2C%22story_fbid%22%3A%5B1358632174936205%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A6%7D%7D%3Aactrs.100003916303642%3Atds_flgs.3%3Aftmd_400706.111111l&__tn__=%2Cg"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1358632174936205/",
+          "price": "40",
+          "text": [
+            "40",
+            "บาท",
+            "งาน",
+            "ปกติ"
+          ],
+          "user_id": "100003916303642",
+          "username": "Sasikarn Jaisue"
+        },
+        "2023-02-27 21:09:03": {
+          "category": [
+            "apartment_condo"
+          ],
+          "date_time": "2023-02-27T21:09:03",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1358718531594236/",
+          "price": "-",
+          "text": [
+            "หา",
+            "สัญญา",
+            "หอ",
+            "ห้อง",
+            "คู่",
+            "1",
+            "ห้อง",
+            "ห้อง",
+            "เดี่ยว",
+            "1",
+            "ห้อง",
+            "ย้าย",
+            "ต้น",
+            "เดือน",
+            "เมษา"
+          ],
+          "user_id": "100015197644087",
+          "username": "วนัชพร เชื้อวิวัฒน์"
+        },
+        "2023-02-27 22:07:09": {
+          "category": [
+            "apartment_condo"
+          ],
+          "date_time": "2023-02-27T22:07:09",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1358746814924741/",
+          "text": [
+            "หา",
+            "สัญญา",
+            "หอPK",
+            "เดือน",
+            "หน้า"
+          ],
+          "user_id": "893011055294780",
+          "username": "KMUTNB Community"
+        },
+        "2023-02-28 06:12:16": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-02-28T06:12:16",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=633188852151040&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=633188862151039&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=633188898817702&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1358935124905910/",
+          "text": [
+            "สนใจ",
+            "ดู",
+            "ห้อง",
+            "พัก",
+            "สอบถาม"
+          ],
+          "user_id": "100063797932329",
+          "username": "หอพักสตรี ห้องพัก อุมาภรณ์"
+        },
+        "2023-02-28 11:30:39": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-02-28T11:30:39",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359039668228789/",
+          "price": "-",
+          "text": [
+            "ไฟ",
+            "หน่วย",
+            "7",
+            "9",
+            "ปกติ",
+            "หรอคะ"
+          ],
+          "user_id": "1524904678021990",
+          "username": "KMUTNB Community"
+        },
+        "2023-02-28 11:42:02": {
+          "category": [
+            "acessories"
+          ],
+          "date_time": "2023-02-28T11:42:02",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=3482508205315752&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=qid.-4621148755869702729%3Amf_story_key.1359042904895132%3Atop_level_post_id.1359042904895132%3Atl_objid.1359042904895132%3Acontent_owner_id_new.100006698206617%3Apage_id.197822284350539%3Asrc.22%3Aphoto_id.3482508205315752%3Astory_location.6%3Astory_attachment_style.photo%3Afilter.GroupStoriesByActivityEntQuery%3Aott.ottAX_XejHK5kbrrsSt%3Asty.308%3Aent_attachement_type.MediaAttachment%3Apage_insights.%7B%22197822284350539%22%3A%7B%22page_id%22%3A197822284350539%2C%22page_id_type%22%3A%22group%22%2C%22actor_id%22%3A100006698206617%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntGroupMallPostCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A657%2C%22publish_time%22%3A1677559322%2C%22story_name%22%3A%22EntGroupMallPostCreationStory%22%2C%22story_fbid%22%3A%5B1359042904895132%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A6%7D%7D%3Aactrs.100006698206617%3Atds_flgs.3%3Aftmd_400706.111111l&__tn__=%2Cg"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359042904895132/",
+          "text": [
+            "ลืม",
+            "airpod",
+            "ร้าน",
+            "ข้าว",
+            "ไก่",
+            "3",
+            "แยก",
+            "ป้าขาย",
+            "ข้าว",
+            "ไก่",
+            "คับ",
+            "ฝาก",
+            "ป้าเขา"
+          ],
+          "user_id": "100006698206617",
+          "username": "Nantawat Tessana"
+        },
+        "2023-02-28 11:55:25": {
+          "category": [
+            "phone"
+          ],
+          "date_time": "2023-02-28T11:55:25",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=2084133651788443&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2084133691788439&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=2084133725121769&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359047414894681/",
+          "text": [
+            "ท่าน",
+            "ใด",
+            "ลืม",
+            "มือถือ",
+            "ม้า",
+            "หินอ่อน",
+            "ศาลยีราฟ",
+            "โรงอาหาร",
+            "รับคืน",
+            "ร้าน",
+            "ถรายเอกสาร",
+            "ริม",
+            "น้ำ"
+          ],
+          "user_id": "100005754850666",
+          "username": "Nopparat Chatpahol"
+        },
+        "2023-02-28 13:34:42": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-02-28T13:34:42",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "มอ"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359081828224573/",
+          "price": "-",
+          "text": [
+            "หา",
+            "ห้อง",
+            "พัก",
+            "มอ",
+            "1520",
+            "ห้อง",
+            "แอร์",
+            "เย็น"
+          ],
+          "user_id": "598404211502082",
+          "username": "KMUTNB Community"
+        },
+        "2023-02-28 16:27:16": {
+          "category": [
+            "pet"
+          ],
+          "date_time": "2023-02-28T16:27:16",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "มจพ"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359139468218809/",
+          "price": "-",
+          "text": [
+            "หาหอ",
+            "มจพ",
+            "ตู้",
+            "เย็น",
+            "เลี้ยง",
+            "แมว"
+          ],
+          "user_id": "100055705451456",
+          "username": "Phuricha Khumyim"
+        },
+        "2023-02-28 17:59:52": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-02-28T17:59:52",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "มจพ"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359173651548724/",
+          "price": "-",
+          "text": [
+            "หาหอพัก",
+            "มจพ",
+            "ตู้",
+            "เย็น"
+          ],
+          "user_id": "100022718232811",
+          "username": "เจนจิรา เทอเนอร์"
+        },
+        "2023-02-28 19:58:55": {
+          "category": [
+            "education",
+            "bag_wallet"
+          ],
+          "date_time": "2023-02-28T19:58:55",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=1576388826206839&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=1576389446206777&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "place": [
+            "สะพาน"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359222514877171/",
+          "text": [
+            "ทำ",
+            "กระเป๋า",
+            "หนัง",
+            "แฟ้ม",
+            "สี",
+            "น้ำตาล",
+            "ตก",
+            "สะพาน",
+            "ติดต่อ",
+            "ชมรมดนตรี"
+          ],
+          "user_id": "100015072096925",
+          "username": "Peemai Kornkanok"
+        },
+        "2023-02-28 20:35:21": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-02-28T20:35:21",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=959786418343188&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY8c5RqNyzJ1ucXSXIYZy2L-EXfSxzRZcIrU584PUaR6cQWckOJW-y5ic1uhf8qP8cSh-OfQn496n0XMASCTgDQQLnO_pk1Z4x8hKFYlRathE9Igj6vkpW2QU2JX1-oViyqN6NGJlpLteenp4dYyAk0ERBNnbmHDLC5pbshdkGvwMzZygMvm1ctOrR6n2K5jt2AX_N3QjBNTa9hEj-f-kYimhsM2inPkF2uskeOM3Uc38SblmBBfBQagfcN_TJ-ryXU3gxFxsyNtq9FGIlCumXh6Hc4hlPXUuoNWuwGdhqsyyX-_BeS4Tw5Pj316JeGMnlp2FPcxcVGF62JA2y57avj_YcGZ19FJ1m1sOgKANRulFKelhPATz48bG7vY1BmKzKnHf1GjOhhXx4S1SExH_DZ69ZdMd6RqgjhcrxBMXJ2gHI-Zi8kBIJI8ZUc4OetsczEKzNnEOxLtw2gN9hFLm25KM0Ymznyq91UjyFOB2JO8mhebIl7YqxngvmxaPiQbBti9etM89se8Rd10lQa0WgoEZDATV2oKjHhpG7HDAikFUMsmjWcN_c-b_XHc2pNq_fh5yRSCxrtbHE1bxHC2ecJSf8ffFWuOvA6MVo04ucM9REj3FKNshVh_xzAhdbkJp2Nt2_DktshVooOJ73D4aLCyS88R2CjuAs4B_P5oXeXwPSnUJd_qo8S5QEcYzM6JZW1fx0omqEtnXAxniZxCeX4cC0mlvmCwqG0egSmLoQ_7_xGFPClG_UVL2l4XJ3rohxR-Xnj9UFfi5I3DeOnFbbZNErxggnRNHR5e_mSWFM-yly4ZzSMxtOWt_fIoqnK-DmmxQiqIVnrfeh42bjTGa-zRP0mx5GvYZJ-0S-SdFq-vr4sZijINE4J3YMGgjFSkZJGPrCqz7bTs5D4VrNmSrxCdn8M_7zplxVQPJQ3QCFqZ6QMThdbFKyOxVMRnWDMEoZW3iCXlgJfWhBiE43v5G3IG6NHnry2aHUFMyIugjRWGugxKhlkS2fCu0pGjEBTbmAsQa3gO_pvxCMkTM1XPGKTcnHYLiFgQNCMq9FnekS7yJqeplNLAofQIDQFNA-prl1QIs8P1_3vhXlIDh2VLxsdN6B5AeLTkiszO43HRFA&__tn__=%2Cg"
+          ],
+          "place": [
+            "มอ"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359239728208783/",
+          "price": "430",
+          "text": [
+            "เครื่อง",
+            "เลข",
+            "รุ่น",
+            "fx85",
+            "ES",
+            "PLUS",
+            "430",
+            "บาท",
+            "งาน",
+            "12",
+            "นัด",
+            "มอ",
+            "มอ"
+          ],
+          "user_id": "100029355174250",
+          "username": "Siripach Pangpon"
+        },
+        "2023-02-28 21:37:46": {
+          "category": [
+            "acessories"
+          ],
+          "date_time": "2023-02-28T21:37:46",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=757699139288457&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY8Ljc71ca1e4j_Hk8qUflmSvsHVeTT-x4PR9UuwOT37oTgt04Lkjdb8vYyiTgehNLxJEUT2Xq9oQh6B9_VxW2YlxAaXJhV0jf331X0TV433G8u8WQT4PbldQQLeBbVQUuDUZ1HMcJtzb6Vsyxewzar9m9k2YhqSsWqoN__J8_ux_3bVtNYq5LfDIP8g94htn6VVQJkfgLGT-6-\\-\\Z8VMPrWycMKYtfcbvSBikzR57eO5xRtOsX2i6gyM_65OlbbrwERrwsqgOFWkb_dMPIeeqwNvSwCzR9_reIcrlM5wwstTkq5nu1TGTGcBdRzyWWO2efN9fTDU6mzL9JayX5uYl6ihNccSLJ0ls6thUEsv-tjcxy5T-0sMd2vJ3qmzESpCg5senNoOPW6rkME7d2zrj6_-oTSuGSjl_vPOHZE5mVsBcKN6-WphKQc8LJY7w-0cLnz7KwaFOrcsriV4X6QsUz2wKnzRWSXWhAUnRffpWUr7SmBtssXan0jqxsgf3ZjOX6SoQcN6YQS-rwJUUJx-ZCIPWcLKga0G16l2NSKyFciUcAX2gN-qSjbIpJMTmAvrz1dFipC0agvaopBNwrAbsu6M2uTwC-953zpC3Sr28hxN_iyKPVaTcBikHnwWGNlly01v-txMDFgpxM6qlxa5DSSjMcJYb1HyB_2wOJGM0PDZ1RbeL4stZqL_RGdmZ1gaq20ULc9I1MeFr1oHfWO4k6jfM1whpN3K1c-\\-\\THiB0lO8uoZ65rwxF9Fq6OMgHKBu_A2RI9-tv5EzkKH0dQsJzMN12BxHUpQWivh0CDj53uxWoIbscR2NZfcfzEpfz-aM6N-jCMhBS5gOXkvQtw85iphpyXO5-e4StICb19_K4l5WVih2azD6Ctn2jdh3M4UUdhha0QYkEWs4hIQSW1kyBbjpk1zRt2Wr2hiRQ0dPUC8ILotTCbrdH0Tf3d-A3DHTfMcrHoAtrFli7JkE-mzy_9qpazuRNOGlpUPiELeNgQXg5FTikimoNLufcTM7DDsfXSYHYNYzqDEWG2LvZ22FAESbLzaKQE11GLMy-denbghyOZIgf0k4XGkxd4sUUUN5TyUrch7sKdsqfRBgAf6Hci9TVkzAcsVw6Y1r3eNvWQ&__tn__=%2Cg"
+          ],
+          "place": [
+            "ซอย",
+            "มอ"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359276711538418/",
+          "text": [
+            "หู",
+            "ฟัง",
+            "ไหม",
+            "ทำ",
+            "หาย",
+            "มอ",
+            "แน่ใจ",
+            "ทำ",
+            "หาย",
+            "ร้าน",
+            "ผัด",
+            "ไทย",
+            "ซอย",
+            "อมิง",
+            "โก้",
+            "ป่าว",
+            "ทัก",
+            "ขอบคุณ"
+          ],
+          "user_id": "100051451329497",
+          "username": "Nattawat Yamrung"
+        }
+      },
+      "03": {
+        "2023-03-01 13:09:00": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-03-01T13:09:00",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=5780009912109408&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=encrypted_tracking_data.0AY-KUepuLY2T47OxLSykUovtcZcTeZroLk_PkWisLZXqbWY9zepP_CqZHRZEwy0yrheYW1SUMlTPBl1OYWGZVibI11OuYvsUPN6LbprxSPeB7leM_2qzM9xoRtZ1zBZIRjU_pOJdamDZU27tbDUv33zRFHoXuLreupBbLrv7MMoJxrXaZsUE0UaLfY8bNJehMleAbHRLRqvKYPxaLFDpyt8nNp49WDMSsEJfd_KcdM-swdrWZzvPlL-fR6lsPIZPj0H04MyeL-maq_Of0TTJKT9vlxLtqT5bIxcU7FVfvRZDji8IZCaIt4Z6Da7WyhJWuFL0gDOmeECoI5vl_qn15WtT7qR_zMNPfMzehxnQSdg07PbU7ApXwCSsarARvWTyATkCoTJp-v2bEURS-fLh2vDm7jvlLI2IAQDQ5M5TUgti_VwNowqp-vZcVFmmgXCddNqAlA6l9uR-PgcDAnh0FtDqG-Jr9hFmoUY9cikHfldx-V1CrmiszaErEJgFjVu4dwnnpObyvYIeRCPBV59c9wG9zE6r71Et96R8nFJ-FZZZOt7kav33WWaFCgddzmygsbhuwHcRLlRkfS7sjCAocZRJ-gV2gcG6AiRnB8aoTdyr99J6OBlCr-apQIOPCsJmzg8BttBZdrjIy1fKdolEoziazaahGuK3Vk-EvtJwdrUuzo8gEr52g58asqGeq87KKL1hJU49l9uNhK68HaIhnNUHtQOuR7DM3rrRKmupt2Vw3qgiteAX3u5vXcZmEm6p7hHp4jRCrWVaAoK-lXXfR-lN0mCZ91mWrCZIU6tso2Ot_ivOo3OFL1As9F55us9JH6WiBk8JHkIO62SY-iy4ZPsbFQdIWuSkSCAprGjw73gDdpO3kIljd8Q-ogmOmRrL9EBIpKvG2sZ7gPLnWYeTo8WTCmix6WIGg672z6v85sd8YuwhfIiGUID2OC0jeMLtBAEPBxktk_36-f2LGOEvd_bGXWMOntKRUtE9_wP-LDF9_sxYwC2Ix3tMnCGShvQb9vBN0v0I_iZ2Eu4Vfh2_4A2gsSrWNodhJ7eoo8uZSDOHLsLcNmGm1PjqxTv5fxgoOkA0ZZCyhdiHfF1q6kq4MQV-gUEumEPHiC0a5O8uzWQ&__tn__=%2Cg"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359620718170684/",
+          "text": [
+            "ทำ",
+            "หาย",
+            "ห้องน้ำ",
+            "ร้าน",
+            "บะหมี่",
+            "เป็ด"
+          ],
+          "user_id": "100003013687316",
+          "username": "Maprang Sarasinee"
+        },
+        "2023-03-01 13:36:18": {
+          "category": [
+            "apartment_condo"
+          ],
+          "date_time": "2023-03-01T13:36:18",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "บ้าน"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359630861503003/",
+          "price": "5",
+          "text": [
+            "หอ",
+            "ราคา",
+            "โควิด",
+            "สัญญา",
+            "ระบุ",
+            "ห้อง",
+            "จ่าย",
+            "คะเช่น",
+            "ห้อง",
+            "5",
+            "บาท",
+            "10",
+            "บาท",
+            "สัญญา",
+            "ระบุ",
+            "5",
+            "บาท",
+            "จ่าย",
+            "ถาม",
+            "แจ้ง",
+            "ล่วงหน้า",
+            "ตัดสินใจ",
+            "ไฟ",
+            "4",
+            "6",
+            "บาท",
+            "ล่วงหน้า",
+            "ไฟ",
+            "บ้าน",
+            "คะหอ",
+            "แถอย่าง",
+            "กลาง",
+            "คุ้ม",
+            "ไฟ",
+            "เดิน",
+            "มืด",
+            "อะด่า",
+            "คุ้ม",
+            "เปลือง",
+            "ออกซิเจน"
+          ],
+          "user_id": "100013235946852",
+          "username": "Fah Natthida"
+        },
+        "2023-03-01 17:05:05": {
+          "category": [
+            "stuff"
+          ],
+          "date_time": "2023-03-01T17:05:05",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=3177790362511615&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg",
+            "https://m.facebook.com/photo/view_full_size/?fbid=3177790379178280&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&__tn__=%2Cg"
+          ],
+          "place": [
+            "มอ"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359703644829058/",
+          "price": "-",
+          "text": [
+            "ปล่อย",
+            "โต๊ะ",
+            "อายุ",
+            "งาน",
+            "ปี",
+            "สภาพ",
+            "90",
+            "ราคา",
+            "2000",
+            "แถม",
+            "ไสลด์",
+            "ต่อรอง",
+            "นัด",
+            "มอ",
+            "ยูไลฟ์ไพร์ม"
+          ],
+          "user_id": "100008420464338",
+          "username": "Ploytawan Mingkwan"
+        },
+        "2023-03-01 20:51:56": {
+          "category": [
+            "acessories",
+            "phone"
+          ],
+          "date_time": "2023-03-01T20:51:56",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "มอ"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359795768153179/",
+          "price": "-",
+          "text": [
+            "หัว",
+            "ปากกา",
+            "iPad",
+            "แบ่ง",
+            "นัด",
+            "มอ",
+            "พน"
+          ],
+          "user_id": "100005371485778",
+          "username": "Pubet Duangkaew"
+        },
+        "2023-03-01 21:40:43": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-03-01T21:40:43",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=1548702948958268&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=qid.-4609217612355406805%3Amf_story_key.1359817808150975%3Atop_level_post_id.1359817808150975%3Atl_objid.1359817808150975%3Acontent_owner_id_new.100014557331156%3Apage_id.197822284350539%3Asrc.22%3Aphoto_id.1548702948958268%3Astory_location.6%3Astory_attachment_style.photo%3Afilter.GroupStoriesByActivityEntQuery%3Aott.ottAX-onuV_CJEvMWWt%3Asty.308%3Aent_attachement_type.MediaAttachment%3Apage_insights.%7B%22197822284350539%22%3A%7B%22page_id%22%3A197822284350539%2C%22page_id_type%22%3A%22group%22%2C%22actor_id%22%3A100014557331156%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntGroupMallPostCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A657%2C%22publish_time%22%3A1677681643%2C%22story_name%22%3A%22EntGroupMallPostCreationStory%22%2C%22story_fbid%22%3A%5B1359817808150975%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A6%7D%7D%3Aactrs.100014557331156%3Atds_flgs.3%3Aftmd_400706.111111l&__tn__=%2Cg"
+          ],
+          "place": [
+            "ulife"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1359817808150975/",
+          "text": [
+            "ทำ",
+            "คีย์การ์ด",
+            "ulife",
+            "prime",
+            "หล่น",
+            "บริเวณ",
+            "หน้า",
+            "ซุ่มคาเฟ่",
+            "รับคืน",
+            "เค้าเตอร์",
+            "ร้าน",
+            "ซุ่ม",
+            "ผม",
+            "ฝาก",
+            "ร้าน",
+            "ซุ่ม"
+          ],
+          "user_id": "100014557331156",
+          "username": "กานต์ กระจ่างธิมาพร"
+        },
+        "2023-03-02 08:35:27": {
+          "category": [
+            "acessories"
+          ],
+          "date_time": "2023-03-02T08:35:27",
+          "describe": [
+            "-"
+          ],
+          "image": [
+            "https://m.facebook.com/photo/view_full_size/?fbid=737944031185197&ref_component=mbasic_photo_permalink&ref_page=%2Fwap%2Fphoto.php&refid=13&_ft_=qid.-4609228746255442209%3Amf_story_key.1360065354792887%3Atop_level_post_id.1360065354792887%3Atl_objid.1360065354792887%3Acontent_owner_id_new.100049088203612%3Apage_id.197822284350539%3Asrc.22%3Aphoto_id.737944031185197%3Astory_location.6%3Astory_attachment_style.photo%3Afilter.GroupStoriesByActivityEntQuery%3Aott.ottAX_GUhmOlg3Ljl2g%3Asty.308%3Aent_attachement_type.MediaAttachment%3Apage_insights.%7B%22197822284350539%22%3A%7B%22page_id%22%3A197822284350539%2C%22page_id_type%22%3A%22group%22%2C%22actor_id%22%3A100049088203612%2C%22dm%22%3A%7B%22isShare%22%3A0%2C%22originalPostOwnerID%22%3A0%7D%2C%22psn%22%3A%22EntGroupMallPostCreationStory%22%2C%22post_context%22%3A%7B%22object_fbtype%22%3A657%2C%22publish_time%22%3A1677720927%2C%22story_name%22%3A%22EntGroupMallPostCreationStory%22%2C%22story_fbid%22%3A%5B1360065354792887%5D%7D%2C%22role%22%3A1%2C%22sl%22%3A6%7D%7D%3Aactrs.100049088203612%3Atds_flgs.3%3Aftmd_400706.111111l&__tn__=%2Cg"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศซื้อขาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1360065354792887/",
+          "price": "1975",
+          "text": [
+            "สนใจ",
+            "หัวปาก",
+            "กาapple",
+            "pencil",
+            "ไหม",
+            "ว่าง",
+            "2",
+            "หัว",
+            "หัว",
+            "1975",
+            "บาท",
+            "มอคับ"
+          ],
+          "user_id": "100049088203612",
+          "username": "Ramida Kaewdee"
+        },
+        "2023-03-02 10:01:14": {
+          "category": [
+            "-"
+          ],
+          "date_time": "2023-03-02T10:01:14",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "มอ"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1360094111456678/",
+          "text": [
+            "หมู",
+            "กระทะ",
+            "แถว",
+            "มอ",
+            "ตอน",
+            "เที่ยง"
+          ],
+          "user_id": "100006390581278",
+          "username": "Praew Mmpp"
+        },
+        "2023-03-02 11:33:48": {
+          "category": [
+            "bag_wallet",
+            "card_ticket"
+          ],
+          "date_time": "2023-03-02T11:33:48",
+          "describe": [
+            "-"
+          ],
+          "place": [
+            "-"
+          ],
+          "post_type": "ประกาศของหาย",
+          "post_url": "https://m.facebook.com/groups/197822284350539/permalink/1360125008120255/",
+          "text": [
+            "กระเป๋า",
+            "ตัง",
+            "สี",
+            "น้ำตาล",
+            "หล่น",
+            "ซับ",
+            "คืน",
+            "ครับข้าง",
+            "บัตร",
+            "นศ",
+            "มเกษตร",
+            "ชื่อ",
+            "ดวงกมล"
+          ],
+          "user_id": "100012305168501",
+          "username": "Kit"
+        }
+      }
+    }
+  },
+  "test": [
+    "sold",
+    "หาเจอ",
+    "ปิด",
+    "❌",
+    "เจอ",
+    "เจ้าของ",
+    "แมว",
+    "หมา",
+    "pig"
+  ],
+  "type": {
+    "find": [
+      "หาย",
+      "รับคืน",
+      "ลืม",
+      "หล่น",
+      "ตก",
+      "ตามหา",
+      "เจอ",
+      "หลุด",
+      "ตกใต้"
+    ],
+    "sell": [
+      "ขาย",
+      "ส่งต่อ",
+      "ปล่อย",
+      "บาท",
+      "ออเดอร์"
+    ]
+  },
+  "update_time": {
+    "time": "Thu 02 Mar 2023 19:00"
+  },
+  "user": {
+    "password": 5678,
+    "username": "admin"
+  }
+}

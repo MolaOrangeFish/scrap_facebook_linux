@@ -6,7 +6,7 @@ import os
 
 def checktime():
     now = datetime.now()
-    current_hour = now.strftime("%H")  #getcurrent time just usn only hour
+    current_hour = now.strftime("%H")  #getcurrent time just use only hour
     if(current_hour in ['18','06']): #เป็นเวลา หก เช้า หรือ หกเย็นมั้ย
         return True
     else:
@@ -29,6 +29,14 @@ while(True):
         print(current_time )
         flag = False
     else:
-        print("\nPlease check network connection and try again.\n")
-        time.sleep(5)
+        os.system('cls') #clear screen
+        if(ping()==False):
+            print("\nPlease check network connection and try again.\n")
+            time.sleep(5) #sleep 5 sec
+        elif(runtime==False):
+            os.system('cls') #clear screen
+            print("\nTaking a break.\n")
+            time.sleep(300) #sleep for 5 min
+
+        
     
