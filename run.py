@@ -20,7 +20,7 @@ def run_scrap():
         for i in range(3,0,-1): #range(start,stop,step)
             print(f"Start Scaping in {i} Second(s).")
             time.sleep(1)
-        # os.system('python make_json/main_ai.py')
+        os.system('python make_json/main_ai.py')
         os.system('python make_json/run_soup.py')
         now = datetime.now()
         current_time = now.strftime("%a %d %b %Y %H:%M")
@@ -34,7 +34,7 @@ def run_scrap():
 
 schedule.every().day.at("06:00").do(run_scrap)
 schedule.every().day.at("18:00").do(run_scrap)
-schedule.every().day.at("20:30").do(run_scrap)
+schedule.every().day.at("20:52").do(run_scrap)
 while True:
     schedule.run_pending()
     time.sleep(1)        
