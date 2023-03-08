@@ -28,13 +28,12 @@ def run_scrap():
     else:
         os.system('cls') #clear screen
         print("\nTaking a break 30 seconds facebook.com can't be reach.\n")
-        countdown() #sleep for 30sec
+        countdown() #count down & sleep for 30sec
         run_scrap()  
 
 
 schedule.every().day.at("06:00").do(run_scrap)
 schedule.every().day.at("18:00").do(run_scrap)
-schedule.every().day.at("20:52").do(run_scrap)
 while True:
     schedule.run_pending()
     time.sleep(1)        
