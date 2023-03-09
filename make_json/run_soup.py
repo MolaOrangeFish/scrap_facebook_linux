@@ -10,3 +10,4 @@ for y in year.get(): #Year
         for d in day.get(): #day
             url = db.reference(f"/scraper/{y}/{m}/{d}/post_url").get()
             get_text_facebook(d,url)
+print("Done checking closed post")

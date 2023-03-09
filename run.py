@@ -16,7 +16,7 @@ def countdown():
       
 
 def run_scrap():
-    if(ping()==True):
+    if(ping()==True): #if doest have network problem like no internet, facebook server offline
         for i in range(3,0,-1): #range(start,stop,step)
             print(f"Start Scaping in {i} Second(s).")
             time.sleep(1)
@@ -25,7 +25,7 @@ def run_scrap():
         now = datetime.now()
         current_time = now.strftime("%a %d %b %Y %H:%M")
         update_time_to_firebase(current_time)
-    else:
+    else:   #have network problem
         os.system('cls') #clear screen
         print("\nTaking a break 30 seconds facebook.com can't be reach.\n")
         countdown() #count down & sleep for 30sec
@@ -34,6 +34,8 @@ def run_scrap():
 
 schedule.every().day.at("06:00").do(run_scrap)
 schedule.every().day.at("18:00").do(run_scrap)
+schedule.every().day.at("17:45").do(run_scrap)
+
 while True:
     schedule.run_pending()
     time.sleep(1)        
