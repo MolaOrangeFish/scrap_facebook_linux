@@ -6,7 +6,7 @@ import os
 import schedule
 
 def countdown():
-    t=30
+    t=300
     while t:
         mins, secs = divmod(t, 60)
         timer = '{:02d}:{:02d}'.format(mins, secs)
@@ -27,14 +27,13 @@ def run_scrap():
         update_time_to_firebase(current_time)
     else:   #have network problem
         os.system('cls') #clear screen
-        print("\nTaking a break 30 seconds facebook.com can't be reach.\n")
-        countdown() #count down & sleep for 30sec
+        print("\nTaking a break 5 mins. facebook.com can't be reach.\n")
+        countdown() #count down & sleep for 5 mins
         run_scrap()  
 
 
 schedule.every().day.at("06:00").do(run_scrap)
 schedule.every().day.at("18:00").do(run_scrap)
-schedule.every().day.at("17:45").do(run_scrap)
 
 while True:
     schedule.run_pending()
