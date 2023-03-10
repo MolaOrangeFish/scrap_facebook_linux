@@ -34,6 +34,8 @@ def run_scrap():
 
 schedule.every().day.at("06:00").do(run_scrap)
 schedule.every().day.at("18:00").do(run_scrap)
+schedule.every().day.at("21:16").do(run_scrap)
+
 
 while True:
     schedule.run_pending()
