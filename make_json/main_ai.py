@@ -29,7 +29,10 @@ loaded_model = joblib.load(open(filename,"rb"))
 vectorizer = joblib.load(open(filenamevector,"rb"))
 ##############Load model##############
 
-for post in get_posts(group=group_id, pages=3, extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}):#group=group_id, pages=20,cookies="from_browser", extra_info=True, option={"comment": False,"posts_per_page": 3,"reactors": True}
+for post in get_posts(group=group_id, pages=3, extra_info=True, 
+                      option={"comment": False,"posts_per_page": 3,"reactors": True},
+                      credentials=("angpangsokawaii@gmail.com","angpangmanno1") #login facebook account
+                      ):
     start_time = datetime.now()
     print('++++++++++++++++++++++++++++++++++++++++++++')
     text = cleanning(post['post_text'])
@@ -43,15 +46,20 @@ for post in get_posts(group=group_id, pages=3, extra_info=True, option={"comment
     post_type = predictions[0] ##0:FIND    1:SELL    2:OTHER
 
     try:
+        skip = False
+        print(f"Predicted:{post_type}")
         if (post_type == 0):
             temp_dict = insert_data_to_dict("find",post['time'],post['username'],post['user_id'],clean_txt_show,post['images'],post['post_url'])
-        elif(post_type == 1):
+        elif(post_type == 1 and post['images'] != []):  #when you wanna sell you must have imgs
             temp_dict = insert_data_to_dict("sell",post['time'],post['username'],post['user_id'],clean_txt_show,post['images'],post['post_url'])
-        elif(post_type==2):
-            temp_dict = insert_data_to_dict("muuu",post['time'],post['username'],post['user_id'],clean_txt_show,post['images'],post['post_url'])
+        elif(post_type == 1 and post['images'] == []):
+            print("Skip sell post no pictures")
+            skip = True
+        # elif(post_type==2):
+        #     temp_dict = insert_data_to_dict("muuu",post['time'],post['username'],post['user_id'],clean_txt_show,post['images'],post['post_url'])
 
         # find the detail of place & describe (color) if data is not 2
-        if(post_type!=2):
+        if(post_type == 0 or post_type == 1 and skip == False):
             get_all_detail(clean_txt_show)
             check_empty(temp_place,temp_describe,temp_category) #if temp place,describe,category are empty it will fill with "-"
 
@@ -70,10 +78,11 @@ for post in get_posts(group=group_id, pages=3, extra_info=True, option={"comment
                 temp_dict["category"].extend({data})
 
         #add all data 0,1 and 2 to data_dict for collecting data to make dataset for traing model   
-        data_dict[str(post['time'])] = temp_dict
+        if skip == False:
+            data_dict[str(post['time'])] = temp_dict
         
-        #if data is not 2
-        if(post_type!=2):
+        #if data is not 2 will put data to firebase 
+        if(post_type == 0 or post_type == 1 == False):
             time = str(temp_dict["date_time"])
             put_data_to_firebase(time, temp_dict)
 
